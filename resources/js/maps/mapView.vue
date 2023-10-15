@@ -1,7 +1,5 @@
 <template>
   <div>
-    data
-    {{ address }}
     <div id="mapContainer"></div>
   </div>
 </template>
@@ -110,7 +108,7 @@ export default {
 
 <style scoped>
 #mapContainer {
-  width: 100vw;
+  width: inherit;
   height: 100vh;
 }
 </style>
