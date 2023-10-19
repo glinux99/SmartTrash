@@ -26,7 +26,7 @@ Like: www.facebook.com/danielkikimba
     <meta property="og:url" content="" />
     <meta property="og:site_name" content="PCR PNC Controller" />
     <link rel="canonical" href="" />
-    <link rel="shortcut icon" href="{{ asset('assets/img/pnc.png')}}" />
+    <link rel="shortcut icon" href="{{ asset('assets/img/logo.png')}}" />
     <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
@@ -142,7 +142,7 @@ Like: www.facebook.com/danielkikimba
 
 
                             <a href="/" class="d-flex align-items-center">
-                                <img alt="Logo" src="{{ asset('assets/img/pnc.png')}}" class="h-40px" />
+                                <img alt="Logo" src="{{ asset('assets/img/logo.png')}}" class="h-40px" />
                             </a>
 
                         </div>
@@ -154,7 +154,7 @@ Like: www.facebook.com/danielkikimba
                             <div class="d-flex ms-3">
                                 <a href="#" class=" btn bg-body btn-color-gray-600 btn-active-info" tooltip="New Member"
                                     data-bs-toggle="modal" data-bs-target="#fab_modal_create_account">
-                                    Nouveau vehicule
+                                    Nouveau client
                                 </a>
                             </div>
 
@@ -193,7 +193,7 @@ Like: www.facebook.com/danielkikimba
 
                 <div class="modal-header">
 
-                    <h2>Creation d'une nouvelle vehicule</h2>
+                    <h2>Enregistement d'un nouveau client</h2>
 
 
 
@@ -213,7 +213,7 @@ Like: www.facebook.com/danielkikimba
 
                             <div class="stepper-item current" data-kt-stepper-element="nav">
                                 <h3 class="stepper-title">
-                                    Information sur le vehicule
+                                    Information sur la poubelle
                                 </h3>
                             </div>
 
@@ -227,12 +227,6 @@ Like: www.facebook.com/danielkikimba
 
 
 
-                            <div class="stepper-item" data-kt-stepper-element="nav">
-                                <h3 class="stepper-title">
-                                    Finalise
-                                </h3>
-                            </div>
-
                         </div>
 
 
@@ -241,98 +235,45 @@ Like: www.facebook.com/danielkikimba
 
                             <div class="current" data-kt-stepper-element="content">
 
-                                <div class="w-100 px-20 d-md-flex flex-row ">
-                                    <div class="flex-fill">
-                                        <div class="row ">
-                                            <div class="col-md-6">
-                                                <label class="required form-label">Marque</label>
-                                                <input type="text"
-                                                    class="form-control form-control-lg form-control-solid" name=""
-                                                    placeholder="model de vehicule" value="">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <label class="required form-label">Model</label>
-                                                <input type="text"
-                                                    class="form-control form-control-lg form-control-solid" name=""
-                                                    placeholder="model de vehicule" value="">
+                                <div class="w-100 px-20 d">
+                                    <div class="row ">
+                                        <div class="col-md-6">
+                                            <label class="required form-label">Adresse IP</label>
+                                            <input type="url" class="form-control form-control-lg form-control-solid"
+                                                name="" placeholder="192.168.1.1" value="">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="required form-label">Couleur</label>
+                                            <input type="text" class="form-control form-control-lg form-control-solid"
+                                                name="" placeholder="couleur" value="">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="required form-label">SSID</label>
+                                            <input type="text" class="form-control form-control-lg form-control-solid"
+                                                name="" placeholder="ssid du reseau" value="">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="required form-label">Mot de passe du reseau</label>
+                                            <input type="text" class="form-control form-control-lg form-control-solid"
+                                                name="" placeholder="************" value="">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="required form-label">Longitude</label>
+                                            <input type="text" class="form-control form-control-lg form-control-solid"
+                                                name="" placeholder="192.168.1.1" value="">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="required form-label">Latitude</label>
+                                            <input type="text" class="form-control form-control-lg form-control-solid"
+                                                name="" placeholder="192.168.1.1" value="">
+                                        </div>
+                                        <div>
+                                            <label class="form-label fw-normal fs-7">Details sur l'emplacement</label>
+                                            <div class="ms-auto">
+                                                <textarea id="" cols="20" rows="3"
+                                                    class="form-control bg-light"></textarea>
                                             </div>
                                         </div>
-                                        <div class="row ">
-                                            <div class="col-md-6">
-                                                <label class="required form-label">Annee</label>
-                                                <input type="text"
-                                                    class="form-control form-control-lg form-control-solid" name=""
-                                                    placeholder="model de vehicule" value="">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <label class="required form-label">Numero d'identification du
-                                                    vehicule(VIN)</label>
-                                                <input type="text"
-                                                    class="form-control form-control-lg form-control-solid" name=""
-                                                    placeholder="model de vehicule" value="">
-                                            </div>
-
-                                        </div>
-                                        <div class="row ">
-                                            <div class="col-md-6">
-                                                <label class="required form-label">Couleur</label>
-                                                <input type="text"
-                                                    class="form-control form-control-lg form-control-solid" name=""
-                                                    placeholder="model de vehicule" value="">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <label class="required form-label">Numero d'immatriculation</label>
-                                                <input type="text"
-                                                    class="form-control form-control-lg form-control-solid" name=""
-                                                    placeholder="model de vehicule" value="">
-                                            </div>
-                                        </div>
-                                        <div class="row ">
-                                            <div class="col-md-6">
-                                                <label class="required form-label">Poids</label>
-                                                <input type="text"
-                                                    class="form-control form-control-lg form-control-solid" name=""
-                                                    placeholder="model de vehicule" value="">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <label class="required form-label">Dimensions</label>
-                                                <input type="text"
-                                                    class="form-control form-control-lg form-control-solid" name=""
-                                                    placeholder="model de vehicule" value="">
-                                            </div>
-                                        </div>
-                                        <div class="row ">
-                                            <div class="col-md-6">
-                                                <label class="required form-label">Cylindre du moteur</label>
-                                                <input type="text"
-                                                    class="form-control form-control-lg form-control-solid" name=""
-                                                    placeholder="model de vehicule" value="">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <label class="required form-label">Type de transmission</label>
-                                                <input type="text"
-                                                    class="form-control form-control-lg form-control-solid" name=""
-                                                    placeholder="model de vehicule" value="">
-                                            </div>
-                                        </div>
-                                        <div class="row ">
-                                            <div class="col-md-6">
-                                                <label class="required form-label">Capacite du reservoir de
-                                                    carburant</label>
-                                                <input type="text"
-                                                    class="form-control form-control-lg form-control-solid" name=""
-                                                    placeholder="model de vehicule" value="">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <label class="required form-label">Consommation de carburant</label>
-                                                <input type="text"
-                                                    class="form-control form-control-lg form-control-solid" name=""
-                                                    placeholder="model de vehicule" value="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-25">
-                                        document
                                     </div>
                                 </div>
 
@@ -345,30 +286,34 @@ Like: www.facebook.com/danielkikimba
                                         <div class="col-md-6">
                                             <label class="required form-label">Nom</label>
                                             <input type="text" class="form-control form-control-lg form-control-solid"
-                                                name="" placeholder="model de vehicule" value="">
+                                                name="" placeholder="model du proprietaire" value="">
                                         </div>
                                         <div class="col-md-6">
-                                            <label class="required form-label">Prenom</label>
+                                            <label class=" form-label">Prenom</label>
                                             <input type="text" class="form-control form-control-lg form-control-solid"
-                                                name="" placeholder="model de vehicule" value="">
+                                                name="" placeholder="prenom du proprietaire" value="">
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <label class="required form-label">Telephone</label>
-                                            <input type="text" class="form-control form-control-lg form-control-solid"
-                                                name="" placeholder="model de vehicule" value="">
+                                            <input type="number" class="form-control form-control-lg form-control-solid"
+                                                name="telephone" placeholder="" value="" required>
                                         </div>
                                         <div class="col-md-6">
-                                            <label class="required form-label">Email</label>
-                                            <input type="text" class="form-control form-control-lg form-control-solid"
-                                                name="" placeholder="model de vehicule" value="">
+                                            <label class="form-label">Email</label>
+                                            <input type="email" class="form-control form-control-lg form-control-solid"
+                                                name="" placeholder="email du proprietaire" value="">
                                         </div>
                                     </div>
                                     <div>
-                                        <label class="form-label fw-normal fs-7">Adresse</label>
-                                        <div class="ms-auto">
-                                            <textarea id="" cols="20" rows="3" class="form-control bg-light"></textarea>
+                                        <label class="form-label">Type de client</label>
+                                        <div class="ms-2 ">
+                                            <select class="form-select form-select-solid form-select-lg"
+                                                data-control="select2" data-hide-search="true">
+                                                <option value="1">Proprietaire</option>
+                                                <option value="2">Locataire</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>

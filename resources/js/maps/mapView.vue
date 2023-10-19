@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="mapContainer"></div>
+    <div id="mapContainer" class="me-5"></div>
   </div>
 </template>
 

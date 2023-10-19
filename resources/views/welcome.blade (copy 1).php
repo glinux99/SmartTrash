@@ -22,15 +22,12 @@ License: For each use you must have a valid license purchased only from above li
     <title>Seven HTML Pro - Bootstrap 5 HTML Multipurpose Light/Dark Admin Dashboard Theme - Seven HTML Pro by
         KeenThemes</title>
     <meta charset="utf-8" />
-    <meta name="description"
-        content="Seven admin dashboard live demo. Check out all the features of the admin panel. Light & dark skins. A large number of settings, additional services and widgets." />
-    <meta name="keywords"
-        content="Seven, bootstrap, bootstrap 5, dmin themes, free admin themes, bootstrap admin, bootstrap dashboard" />
+    <meta name="description" content="Seven admin dashboard live demo. Check out all the features of the admin panel. Light & dark skins. A large number of settings, additional services and widgets." />
+    <meta name="keywords" content="Seven, bootstrap, bootstrap 5, dmin themes, free admin themes, bootstrap admin, bootstrap dashboard" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title"
-        content="Seven HTML Pro - Bootstrap 5 HTML Multipurpose Light/Dark Admin Dashboard Theme - Seven HTML Pro by KeenThemes" />
+    <meta property="og:title" content="Seven HTML Pro - Bootstrap 5 HTML Multipurpose Light/Dark Admin Dashboard Theme - Seven HTML Pro by KeenThemes" />
     <meta property="og:url" content="https://keenthemes.com/products/seven-html-pro" />
     <meta property="og:site_name" content="Seven HTML Pro by Keenthemes" />
     <link rel="canonical" href="https://preview.keenthemes.com/seven-html-pro" />
@@ -99,8 +96,7 @@ License: For each use you must have a valid license purchased only from above li
     </script>
     <!--end::Theme mode setup on page load-->
     <!--Begin::Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FS8GGP" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FS8GGP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!--End::Google Tag Manager (noscript) -->
 
     <!--begin::Main-->
@@ -113,17 +109,13 @@ License: For each use you must have a valid license purchased only from above li
             <!--begin::Wrapper-->
             <div class="wrapper d-flex flex-column flex-row-fluid" id="fab_wrapper">
                 <!--begin::Header-->
-                <div id="fab_header" class="header " data-kt-sticky="true" data-kt-sticky-name="header"
-                    data-kt-sticky-offset="{default: '200px', lg: '300px'}">
+                <div id="fab_header" class="header " data-kt-sticky="true" data-kt-sticky-name="header" data-kt-sticky-offset="{default: '200px', lg: '300px'}">
 
                     <!--begin::Container-->
-                    <div class=" container-xxl  d-flex align-items-center justify-content-between"
-                        id="fab_header_container">
+                    <div class=" container-xxl  d-flex align-items-center justify-content-between" id="fab_header_container">
 
                         <!--begin::Page title-->
-                        <div class="page-title d-flex flex-column align-items-start justify-content-center flex-wrap me-lg-2 pb-5 pb-lg-0"
-                            data-kt-swapper="true" data-kt-swapper-mode="prepend"
-                            data-kt-swapper-parent="{default: '#fab_content_container', lg: '#fab_header_container'}">
+                        <div class="page-title d-flex flex-column align-items-start justify-content-center flex-wrap me-lg-2 pb-5 pb-lg-0" data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#fab_content_container', lg: '#fab_header_container'}">
 
                             <!--begin::Heading-->
                             <h1 class="text-dark fw-semibold my-0 fs-2">
@@ -147,14 +139,13 @@ License: For each use you must have a valid license purchased only from above li
                         <div class="d-flex d-lg-none align-items-center ms-n2 me-2">
                             <!--begin::Aside mobile toggle-->
                             <div class="btn btn-icon btn-active-icon-primary" id="fab_aside_toggle">
-                                <i class="ki-duotone ki-abstract-14 fs-2x"><span class="path1"></span><span
-                                        class="path2"></span></i>
+                                <i class="ki-duotone ki-abstract-14 fs-2x"><span class="path1"></span><span class="path2"></span></i>
                             </div>
                             <!--end::Aside mobile toggle-->
 
                             <!--begin::Logox-->
                             <a href="/" class="d-flex align-items-center">
-                                <img alt="Logo" src="{{ asset('assets/img/pnc.png')}}" class="h-40px" />
+                                <img alt="Logo" src="{{ asset('assets/img/logo.png')}}" class="h-40px" />
                             </a>
                             <!--end::Logo-->
                         </div>
@@ -164,8 +155,7 @@ License: For each use you must have a valid license purchased only from above li
                         <div class="d-flex flex-shrink-0">
                             <!--begin::Invite user-->
                             <div class="d-flex ms-3">
-                                <a href="#" class=" btn bg-body btn-color-gray-600 btn-active-info" tooltip="New Member"
-                                    data-bs-toggle="modal" data-bs-target="#fab_modal_create_account">
+                                <a href="#" class=" btn bg-body btn-color-gray-600 btn-active-info" tooltip="New Member" data-bs-toggle="modal" data-bs-target="#fab_modal_create_account">
                                     Nouveau vehicule
                                 </a>
                             </div>
@@ -201,8 +191,7 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--end::Chart-->
 
                                             <!--begin::Labels-->
-                                            <div
-                                                class="d-flex flex-column justify-content-center flex-row-fluid pe-11 mb-5">
+                                            <div class="d-flex flex-column justify-content-center flex-row-fluid pe-11 mb-5">
                                                 <!--begin::Label-->
                                                 <div class="d-flex fs-6 fw-semibold align-items-center mb-3">
                                                     <div class="bullet bg-primary me-3"></div>
@@ -247,42 +236,31 @@ License: For each use you must have a valid license purchased only from above li
 
                                         <!--begin::Users group-->
                                         <div class="symbol-group symbol-hover mb-9">
-                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
-                                                title="Alan Warden">
-                                                <span
-                                                    class="symbol-label bg-warning text-inverse-warning fw-bold">A</span>
+                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Alan Warden">
+                                                <span class="symbol-label bg-warning text-inverse-warning fw-bold">A</span>
                                             </div>
-                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
-                                                title="Michael Eberon">
+                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Michael Eberon">
                                                 <img alt="Pic" src="../../assets/media/avatars/300-11.jpg" />
                                             </div>
-                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
-                                                title="Michelle Swanston">
+                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Michelle Swanston">
                                                 <img alt="Pic" src="../../assets/media/avatars/300-7.jpg" />
                                             </div>
-                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
-                                                title="Francis Mitcham">
+                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Francis Mitcham">
                                                 <img alt="Pic" src="../../assets/media/avatars/300-20.jpg" />
                                             </div>
-                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
-                                                title="Susan Redwood">
-                                                <span
-                                                    class="symbol-label bg-primary text-inverse-primary fw-bold">S</span>
+                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Susan Redwood">
+                                                <span class="symbol-label bg-primary text-inverse-primary fw-bold">S</span>
                                             </div>
-                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
-                                                title="Melody Macy">
+                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Melody Macy">
                                                 <img alt="Pic" src="../../assets/media/avatars/300-2.jpg" />
                                             </div>
-                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
-                                                title="Perry Matthew">
+                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Perry Matthew">
                                                 <span class="symbol-label bg-info text-inverse-info fw-bold">P</span>
                                             </div>
-                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
-                                                title="Barry Walter">
+                                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Barry Walter">
                                                 <img alt="Pic" src="../../assets/media/avatars/300-12.jpg" />
                                             </div>
-                                            <a href="#" class="symbol symbol-35px symbol-circle" data-bs-toggle="modal"
-                                                data-bs-target="#fab_modal_view_users">
+                                            <a href="#" class="symbol symbol-35px symbol-circle" data-bs-toggle="modal" data-bs-target="#fab_modal_view_users">
                                                 <span class="symbol-label bg-dark text-gray-300 fs-8 fw-bold">+42</span>
                                             </a>
                                         </div>
@@ -290,11 +268,9 @@ License: For each use you must have a valid license purchased only from above li
 
                                         <!--begin::Actions-->
                                         <div class="d-flex">
-                                            <a href="#" class="btn btn-primary btn-sm me-3" data-bs-toggle="modal"
-                                                data-bs-target="#fab_modal_view_users">Tout les
+                                            <a href="#" class="btn btn-primary btn-sm me-3" data-bs-toggle="modal" data-bs-target="#fab_modal_view_users">Tout les
                                                 proprietaires</a>
-                                            <a href="#" class="btn btn-light btn-sm" data-bs-toggle="modal"
-                                                data-bs-target="#fab_modal_users_search">Ajouter un proprietaire</a>
+                                            <a href="#" class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#fab_modal_users_search">Ajouter un proprietaire</a>
                                         </div>
                                         <!--end::Actions-->
                                     </div>
@@ -328,8 +304,7 @@ License: For each use you must have a valid license purchased only from above li
     </div>
     <!--end::Scrolltop-->
     <!--begin::Modal - Create account-->
-    <div class="modal fade" id="fab_modal_create_account" data-bs-backdrop="static" data-bs-keyboard="false"
-        tabindex="-1" aria-hidden="true">
+    <div class="modal fade" id="fab_modal_create_account" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
         <!--begin::Modal dialog-->
         <div class="modal-dialog mw-1000px">
             <!--begin::Modal content-->
@@ -409,11 +384,8 @@ License: For each use you must have a valid license purchased only from above li
                                             Choose Account Type
 
 
-                                            <span class="ms-1" data-bs-toggle="tooltip"
-                                                title="Billing is issued based on your selected account typ">
-                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span
-                                                        class="path1"></span><span class="path2"></span><span
-                                                        class="path3"></span></i></span>
+                                            <span class="ms-1" data-bs-toggle="tooltip" title="Billing is issued based on your selected account typ">
+                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i></span>
                                         </h2>
                                         <!--end::Title-->
 
@@ -433,16 +405,9 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--begin::Col-->
                                             <div class="col-lg-6">
                                                 <!--begin::Option-->
-                                                <input type="radio" class="btn-check" name="account_type"
-                                                    value="personal" checked="checked"
-                                                    id="fab_create_account_form_account_type_personal" />
-                                                <label
-                                                    class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center mb-10"
-                                                    for="fab_create_account_form_account_type_personal">
-                                                    <i class="ki-duotone ki-badge fs-3x me-5"><span
-                                                            class="path1"></span><span class="path2"></span><span
-                                                            class="path3"></span><span class="path4"></span><span
-                                                            class="path5"></span></i>
+                                                <input type="radio" class="btn-check" name="account_type" value="personal" checked="checked" id="fab_create_account_form_account_type_personal" />
+                                                <label class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center mb-10" for="fab_create_account_form_account_type_personal">
+                                                    <i class="ki-duotone ki-badge fs-3x me-5"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></i>
                                                     <!--begin::Info-->
                                                     <span class="d-block fw-semibold text-start">
                                                         <span class="text-dark fw-bold d-block fs-4 mb-2">
@@ -461,14 +426,9 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--begin::Col-->
                                             <div class="col-lg-6">
                                                 <!--begin::Option-->
-                                                <input type="radio" class="btn-check" name="account_type"
-                                                    value="corporate"
-                                                    id="fab_create_account_form_account_type_corporate" />
-                                                <label
-                                                    class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center"
-                                                    for="fab_create_account_form_account_type_corporate">
-                                                    <i class="ki-duotone ki-briefcase fs-3x me-5"><span
-                                                            class="path1"></span><span class="path2"></span></i>
+                                                <input type="radio" class="btn-check" name="account_type" value="corporate" id="fab_create_account_form_account_type_corporate" />
+                                                <label class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center" for="fab_create_account_form_account_type_corporate">
+                                                    <i class="ki-duotone ki-briefcase fs-3x me-5"><span class="path1"></span><span class="path2"></span></i>
                                                     <!--begin::Info-->
                                                     <span class="d-block fw-semibold text-start">
                                                         <span class="text-dark fw-bold d-block fs-4 mb-2">Corporate
@@ -516,11 +476,8 @@ License: For each use you must have a valid license purchased only from above li
                                             Specify Team Size
 
 
-                                            <span class="ms-1" data-bs-toggle="tooltip"
-                                                title="Provide your team size to help us setup your billing">
-                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span
-                                                        class="path1"></span><span class="path2"></span><span
-                                                        class="path3"></span></i></span> </label>
+                                            <span class="ms-1" data-bs-toggle="tooltip" title="Provide your team size to help us setup your billing">
+                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i></span> </label>
                                         <!--end::Label-->
 
                                         <!--begin::Row-->
@@ -528,10 +485,8 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--begin::Col-->
                                             <div class="col">
                                                 <!--begin::Option-->
-                                                <label
-                                                    class="btn btn-outline btn-outline-dashed btn-active-light-primary w-100 p-4">
-                                                    <input type="radio" class="btn-check" name="account_team_size"
-                                                        value="1-1" />
+                                                <label class="btn btn-outline btn-outline-dashed btn-active-light-primary w-100 p-4">
+                                                    <input type="radio" class="btn-check" name="account_team_size" value="1-1" />
                                                     <span class="fw-bold fs-3">1-1</span>
                                                 </label>
                                                 <!--end::Option-->
@@ -541,10 +496,8 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--begin::Col-->
                                             <div class="col">
                                                 <!--begin::Option-->
-                                                <label
-                                                    class="btn btn-outline btn-outline-dashed btn-active-light-primary w-100 p-4 active">
-                                                    <input type="radio" class="btn-check" name="account_team_size"
-                                                        checked value="2-10" />
+                                                <label class="btn btn-outline btn-outline-dashed btn-active-light-primary w-100 p-4 active">
+                                                    <input type="radio" class="btn-check" name="account_team_size" checked value="2-10" />
                                                     <span class="fw-bold fs-3">2-10</span>
                                                 </label>
                                                 <!--end::Option-->
@@ -554,10 +507,8 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--begin::Col-->
                                             <div class="col">
                                                 <!--begin::Option-->
-                                                <label
-                                                    class="btn btn-outline btn-outline-dashed btn-active-light-primary w-100 p-4">
-                                                    <input type="radio" class="btn-check" name="account_team_size"
-                                                        value="10-50" />
+                                                <label class="btn btn-outline btn-outline-dashed btn-active-light-primary w-100 p-4">
+                                                    <input type="radio" class="btn-check" name="account_team_size" value="10-50" />
                                                     <span class="fw-bold fs-3">10-50</span>
                                                 </label>
                                                 <!--end::Option-->
@@ -567,10 +518,8 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--begin::Col-->
                                             <div class="col">
                                                 <!--begin::Option-->
-                                                <label
-                                                    class="btn btn-outline btn-outline-dashed btn-active-light-primary w-100 p-4">
-                                                    <input type="radio" class="btn-check" name="account_team_size"
-                                                        value="50+" />
+                                                <label class="btn btn-outline btn-outline-dashed btn-active-light-primary w-100 p-4">
+                                                    <input type="radio" class="btn-check" name="account_team_size" value="50+" />
                                                     <span class="fw-bold fs-3">50+</span>
                                                 </label>
                                                 <!--end::Option-->
@@ -594,8 +543,7 @@ License: For each use you must have a valid license purchased only from above li
                                         <!--end::Label-->
 
                                         <!--begin::Input-->
-                                        <input type="text" class="form-control form-control-lg form-control-solid"
-                                            name="account_name" placeholder="" value="" />
+                                        <input type="text" class="form-control form-control-lg form-control-solid" name="account_name" placeholder="" value="" />
                                         <!--end::Input-->
                                     </div>
                                     <!--end::Input group-->
@@ -607,11 +555,8 @@ License: For each use you must have a valid license purchased only from above li
                                             Select Account Plan
 
 
-                                            <span class="ms-1" data-bs-toggle="tooltip"
-                                                title="Monthly billing will be based on your account plan">
-                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span
-                                                        class="path1"></span><span class="path2"></span><span
-                                                        class="path3"></span></i></span> </label>
+                                            <span class="ms-1" data-bs-toggle="tooltip" title="Monthly billing will be based on your account plan">
+                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i></span> </label>
                                         <!--end::Label-->
 
                                         <!--begin::Options-->
@@ -623,16 +568,14 @@ License: For each use you must have a valid license purchased only from above li
                                                     <!--begin::Icon-->
                                                     <span class="symbol symbol-50px me-6">
                                                         <span class="symbol-label">
-                                                            <i class="ki-duotone ki-bank fs-1 text-gray-600"><span
-                                                                    class="path1"></span><span class="path2"></span></i>
+                                                            <i class="ki-duotone ki-bank fs-1 text-gray-600"><span class="path1"></span><span class="path2"></span></i>
                                                         </span>
                                                     </span>
                                                     <!--end::Icon-->
 
                                                     <!--begin::Description-->
                                                     <span class="d-flex flex-column">
-                                                        <span
-                                                            class="fw-bold text-gray-800 text-hover-primary fs-5">Company
+                                                        <span class="fw-bold text-gray-800 text-hover-primary fs-5">Company
                                                             Account</span>
                                                         <span class="fs-6 fw-semibold text-muted">Use images to enhance
                                                             your post flow</span>
@@ -643,8 +586,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                 <!--begin:Input-->
                                                 <span class="form-check form-check-custom form-check-solid">
-                                                    <input class="form-check-input" type="radio" name="account_plan"
-                                                        value="1" />
+                                                    <input class="form-check-input" type="radio" name="account_plan" value="1" />
                                                 </span>
                                                 <!--end:Input-->
                                             </label>
@@ -657,16 +599,14 @@ License: For each use you must have a valid license purchased only from above li
                                                     <!--begin::Icon-->
                                                     <span class="symbol symbol-50px me-6">
                                                         <span class="symbol-label">
-                                                            <i class="ki-duotone ki-chart fs-1 text-gray-600"><span
-                                                                    class="path1"></span><span class="path2"></span></i>
+                                                            <i class="ki-duotone ki-chart fs-1 text-gray-600"><span class="path1"></span><span class="path2"></span></i>
                                                         </span>
                                                     </span>
                                                     <!--end::Icon-->
 
                                                     <!--begin::Description-->
                                                     <span class="d-flex flex-column">
-                                                        <span
-                                                            class="fw-bold text-gray-800 text-hover-primary fs-5">Developer
+                                                        <span class="fw-bold text-gray-800 text-hover-primary fs-5">Developer
                                                             Account</span>
                                                         <span class="fs-6 fw-semibold text-muted">Use images to your
                                                             post time</span>
@@ -677,8 +617,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                 <!--begin:Input-->
                                                 <span class="form-check form-check-custom form-check-solid">
-                                                    <input class="form-check-input" type="radio" checked
-                                                        name="account_plan" value="2" />
+                                                    <input class="form-check-input" type="radio" checked name="account_plan" value="2" />
                                                 </span>
                                                 <!--end:Input-->
                                             </label>
@@ -691,17 +630,14 @@ License: For each use you must have a valid license purchased only from above li
                                                     <!--begin::Icon-->
                                                     <span class="symbol symbol-50px me-6">
                                                         <span class="symbol-label">
-                                                            <i class="ki-duotone ki-chart-pie-4 fs-1 text-gray-600"><span
-                                                                    class="path1"></span><span
-                                                                    class="path2"></span><span class="path3"></span></i>
+                                                            <i class="ki-duotone ki-chart-pie-4 fs-1 text-gray-600"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
                                                         </span>
                                                     </span>
                                                     <!--end::Icon-->
 
                                                     <!--begin::Description-->
                                                     <span class="d-flex flex-column">
-                                                        <span
-                                                            class="fw-bold text-gray-800 text-hover-primary fs-5">Testing
+                                                        <span class="fw-bold text-gray-800 text-hover-primary fs-5">Testing
                                                             Account</span>
                                                         <span class="fs-6 fw-semibold text-muted">Use images to enhance
                                                             time travel rivers</span>
@@ -712,8 +648,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                 <!--begin:Input-->
                                                 <span class="form-check form-check-custom form-check-solid">
-                                                    <input class="form-check-input" type="radio" name="account_plan"
-                                                        value="3" />
+                                                    <input class="form-check-input" type="radio" name="account_plan" value="3" />
                                                 </span>
                                                 <!--end:Input-->
                                             </label>
@@ -753,9 +688,7 @@ License: For each use you must have a valid license purchased only from above li
                                         <!--end::Label-->
 
                                         <!--begin::Input-->
-                                        <input name="business_name"
-                                            class="form-control form-control-lg form-control-solid"
-                                            value="Keenthemes Inc." />
+                                        <input name="business_name" class="form-control form-control-lg form-control-solid" value="Keenthemes Inc." />
                                         <!--end::Input-->
                                     </div>
                                     <!--end::Input group-->
@@ -767,8 +700,7 @@ License: For each use you must have a valid license purchased only from above li
                                             <span class="required">Shortened Descriptor</span>
 
 
-                                            <span class="lh-1 ms-1" data-bs-toggle="popover" data-bs-trigger="hover"
-                                                data-bs-html="true" data-bs-content="
+                                            <span class="lh-1 ms-1" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-html="true" data-bs-content="
 		&lt;div class=&#039;p-4 rounded bg-light&#039;&gt;
 			&lt;div class=&#039;d-flex flex-stack text-muted mb-4&#039;&gt;
 				&lt;i class=&quot;ki-duotone ki-bank fs-3 me-3&quot;&gt;&lt;span class=&quot;path1&quot;&gt;&lt;/span&gt;&lt;span class=&quot;path2&quot;&gt;&lt;/span&gt;&lt;/i&gt;
@@ -798,15 +730,11 @@ License: For each use you must have a valid license purchased only from above li
 			&lt;/div&gt;
 		&lt;/div&gt;
 	">
-                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span
-                                                        class="path1"></span><span class="path2"></span><span
-                                                        class="path3"></span></i></span> </label>
+                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i></span> </label>
                                         <!--end::Label-->
 
                                         <!--begin::Input-->
-                                        <input name="business_descriptor"
-                                            class="form-control form-control-lg form-control-solid"
-                                            value="KEENTHEMES" />
+                                        <input name="business_descriptor" class="form-control form-control-lg form-control-solid" value="KEENTHEMES" />
                                         <!--end::Input-->
 
                                         <!--begin::Hint-->
@@ -824,10 +752,7 @@ License: For each use you must have a valid license purchased only from above li
                                         <!--end::Label-->
 
                                         <!--begin::Input-->
-                                        <select name="business_type"
-                                            class="form-select form-select-lg form-select-solid" data-control="select2"
-                                            data-placeholder="Select..." data-allow-clear="true"
-                                            data-hide-search="true">
+                                        <select name="business_type" class="form-select form-select-lg form-select-solid" data-control="select2" data-placeholder="Select..." data-allow-clear="true" data-hide-search="true">
                                             <option></option>
                                             <option value="1">S Corporation</option>
                                             <option value="1">C Corporation</option>
@@ -847,8 +772,7 @@ License: For each use you must have a valid license purchased only from above li
                                         <!--end::Label-->
 
                                         <!--begin::Input-->
-                                        <textarea name="business_description"
-                                            class="form-control form-control-lg form-control-solid" rows="3"></textarea>
+                                        <textarea name="business_description" class="form-control form-control-lg form-control-solid" rows="3"></textarea>
                                         <!--end::Input-->
                                     </div>
                                     <!--end::Input group-->
@@ -860,9 +784,7 @@ License: For each use you must have a valid license purchased only from above li
                                         <!--end::Label-->
 
                                         <!--begin::Input-->
-                                        <input name="business_email"
-                                            class="form-control form-control-lg form-control-solid"
-                                            value="corp@support.com" />
+                                        <input name="business_email" class="form-control form-control-lg form-control-solid" value="corp@support.com" />
                                         <!--end::Input-->
                                     </div>
                                     <!--end::Input group-->
@@ -898,15 +820,11 @@ License: For each use you must have a valid license purchased only from above li
                                             <span class="required">Name On Card</span>
 
 
-                                            <span class="ms-1" data-bs-toggle="tooltip"
-                                                title="Specify a card holder's name">
-                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span
-                                                        class="path1"></span><span class="path2"></span><span
-                                                        class="path3"></span></i></span> </label>
+                                            <span class="ms-1" data-bs-toggle="tooltip" title="Specify a card holder's name">
+                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i></span> </label>
                                         <!--end::Label-->
 
-                                        <input type="text" class="form-control form-control-solid" placeholder=""
-                                            name="card_name" value="Max Doe" />
+                                        <input type="text" class="form-control form-control-solid" placeholder="" name="card_name" value="Max Doe" />
                                     </div>
                                     <!--end::Input group-->
 
@@ -919,19 +837,14 @@ License: For each use you must have a valid license purchased only from above li
                                         <!--begin::Input wrapper-->
                                         <div class="position-relative">
                                             <!--begin::Input-->
-                                            <input type="text" class="form-control form-control-solid"
-                                                placeholder="Enter card number" name="card_number"
-                                                value="4111 1111 1111 1111" />
+                                            <input type="text" class="form-control form-control-solid" placeholder="Enter card number" name="card_number" value="4111 1111 1111 1111" />
                                             <!--end::Input-->
 
                                             <!--begin::Card logos-->
                                             <div class="position-absolute translate-middle-y top-50 end-0 me-5">
-                                                <img src="../../assets/media/svg/card-logos/visa.svg" alt=""
-                                                    class="h-25px" />
-                                                <img src="../../assets/media/svg/card-logos/mastercard.svg" alt=""
-                                                    class="h-25px" />
-                                                <img src="../../assets/media/svg/card-logos/american-express.svg" alt=""
-                                                    class="h-25px" />
+                                                <img src="../../assets/media/svg/card-logos/visa.svg" alt="" class="h-25px" />
+                                                <img src="../../assets/media/svg/card-logos/mastercard.svg" alt="" class="h-25px" />
+                                                <img src="../../assets/media/svg/card-logos/american-express.svg" alt="" class="h-25px" />
                                             </div>
                                             <!--end::Card logos-->
                                         </div>
@@ -952,9 +865,7 @@ License: For each use you must have a valid license purchased only from above li
                                             <div class="row fv-row">
                                                 <!--begin::Col-->
                                                 <div class="col-6">
-                                                    <select name="card_expiry_month"
-                                                        class="form-select form-select-solid" data-control="select2"
-                                                        data-hide-search="true" data-placeholder="Month">
+                                                    <select name="card_expiry_month" class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Month">
                                                         <option></option>
                                                         <option value="1">1</option>
                                                         <option value="2">2</option>
@@ -974,9 +885,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                 <!--begin::Col-->
                                                 <div class="col-6">
-                                                    <select name="card_expiry_year"
-                                                        class="form-select form-select-solid" data-control="select2"
-                                                        data-hide-search="true" data-placeholder="Year">
+                                                    <select name="card_expiry_year" class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Year">
                                                         <option></option>
                                                         <option value="2023">2023</option>
                                                         <option value="2024">2024</option>
@@ -1004,24 +913,19 @@ License: For each use you must have a valid license purchased only from above li
                                                 <span class="required">CVV</span>
 
 
-                                                <span class="ms-1" data-bs-toggle="tooltip"
-                                                    title="Enter a card CVV code">
-                                                    <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span
-                                                            class="path1"></span><span class="path2"></span><span
-                                                            class="path3"></span></i></span> </label>
+                                                <span class="ms-1" data-bs-toggle="tooltip" title="Enter a card CVV code">
+                                                    <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i></span> </label>
                                             <!--end::Label-->
 
                                             <!--begin::Input wrapper-->
                                             <div class="position-relative">
                                                 <!--begin::Input-->
-                                                <input type="text" class="form-control form-control-solid" minlength="3"
-                                                    maxlength="4" placeholder="CVV" name="card_cvv" />
+                                                <input type="text" class="form-control form-control-solid" minlength="3" maxlength="4" placeholder="CVV" name="card_cvv" />
                                                 <!--end::Input-->
 
                                                 <!--begin::CVV icon-->
                                                 <div class="position-absolute translate-middle-y top-50 end-0 me-3">
-                                                    <i class="ki-duotone ki-credit-cart fs-2hx"><span
-                                                            class="path1"></span><span class="path2"></span></i>
+                                                    <i class="ki-duotone ki-credit-cart fs-2hx"><span class="path1"></span><span class="path2"></span></i>
                                                 </div>
                                                 <!--end::CVV icon-->
                                             </div>
@@ -1045,8 +949,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                         <!--begin::Switch-->
                                         <label class="form-check form-switch form-check-custom form-check-solid">
-                                            <input class="form-check-input" type="checkbox" value="1"
-                                                checked="checked" />
+                                            <input class="form-check-input" type="checkbox" value="1" checked="checked" />
                                             <span class="form-check-label fw-semibold text-muted">
                                                 Save Card
                                             </span>
@@ -1097,12 +1000,9 @@ License: For each use you must have a valid license purchased only from above li
                                         <!--begin::Alert-->
 
                                         <!--begin::Notice-->
-                                        <div
-                                            class="notice d-flex bg-light-warning rounded border-warning border border-dashed  p-6">
+                                        <div class="notice d-flex bg-light-warning rounded border-warning border border-dashed  p-6">
                                             <!--begin::Icon-->
-                                            <i class="ki-duotone ki-information fs-2tx text-warning me-4"><span
-                                                    class="path1"></span><span class="path2"></span><span
-                                                    class="path3"></span></i>
+                                            <i class="ki-duotone ki-information fs-2tx text-warning me-4"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
                                             <!--end::Icon-->
 
                                             <!--begin::Wrapper-->
@@ -1113,8 +1013,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                     <div class="fs-6 text-gray-700 ">To start using great tools,
                                                         please,
-                                                        <a href="../../utilities/wizards/vertical.html"
-                                                            class="fw-bold">Create Team Platform</a>
+                                                        <a href="../../utilities/wizards/vertical.html" class="fw-bold">Create Team Platform</a>
                                                     </div>
                                                 </div>
                                                 <!--end::Content-->
@@ -1136,32 +1035,26 @@ License: For each use you must have a valid license purchased only from above li
                             <div class="d-flex flex-stack pt-15">
                                 <!--begin::Wrapper-->
                                 <div class="mr-2">
-                                    <button type="button" class="btn btn-lg btn-light-primary me-3"
-                                        data-kt-stepper-action="previous" data-kt-stepper-state="hide-on-last-step">
-                                        <i class="ki-duotone ki-arrow-left fs-4 me-1"><span class="path1"></span><span
-                                                class="path2"></span></i> Back
+                                    <button type="button" class="btn btn-lg btn-light-primary me-3" data-kt-stepper-action="previous" data-kt-stepper-state="hide-on-last-step">
+                                        <i class="ki-duotone ki-arrow-left fs-4 me-1"><span class="path1"></span><span class="path2"></span></i> Back
                                     </button>
                                 </div>
                                 <!--end::Wrapper-->
 
                                 <!--begin::Wrapper-->
                                 <div>
-                                    <button type="button" class="btn btn-lg btn-primary me-3"
-                                        data-kt-stepper-action="submit">
+                                    <button type="button" class="btn btn-lg btn-primary me-3" data-kt-stepper-action="submit">
                                         <span class="indicator-label">
                                             Submit
-                                            <i class="ki-duotone ki-arrow-right fs-3 ms-2 me-0"><span
-                                                    class="path1"></span><span class="path2"></span></i> </span>
+                                            <i class="ki-duotone ki-arrow-right fs-3 ms-2 me-0"><span class="path1"></span><span class="path2"></span></i> </span>
                                         <span class="indicator-progress">
-                                            Please wait... <span
-                                                class="spinner-border spinner-border-sm align-middle ms-2"></span>
+                                            Please wait... <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
                                         </span>
                                     </button>
 
                                     <button type="button" class="btn btn-lg btn-primary" data-kt-stepper-action="next">
                                         Continue
-                                        <i class="ki-duotone ki-arrow-right fs-4 ms-1 me-0"><span
-                                                class="path1"></span><span class="path2"></span></i> </button>
+                                        <i class="ki-duotone ki-arrow-right fs-4 ms-1 me-0"><span class="path1"></span><span class="path2"></span></i> </button>
                                 </div>
                                 <!--end::Wrapper-->
                             </div>
@@ -1247,8 +1140,7 @@ License: For each use you must have a valid license purchased only from above li
                         <!--end::Nav-->
 
                         <!--begin::Form-->
-                        <form class="mx-auto w-100 mw-600px pt-15 pb-10" novalidate="novalidate"
-                            id="fab_modal_create_campaign_stepper_form">
+                        <form class="mx-auto w-100 mw-600px pt-15 pb-10" novalidate="novalidate" id="fab_modal_create_campaign_stepper_form">
 
                             <!--begin::Step 1-->
                             <div class="current" data-kt-stepper-element="content">
@@ -1261,11 +1153,8 @@ License: For each use you must have a valid license purchased only from above li
                                             Setup Campaign Details
 
 
-                                            <span class="ms-1" data-bs-toggle="tooltip"
-                                                title="Campaign name will be used as reference within your campaign reports">
-                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span
-                                                        class="path1"></span><span class="path2"></span><span
-                                                        class="path3"></span></i></span>
+                                            <span class="ms-1" data-bs-toggle="tooltip" title="Campaign name will be used as reference within your campaign reports">
+                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i></span>
                                         </h2>
                                         <!--end::Title-->
 
@@ -1285,8 +1174,7 @@ License: For each use you must have a valid license purchased only from above li
                                         <!--end::Label-->
 
                                         <!--begin::Input-->
-                                        <input type="text" class="form-control form-control-lg form-control-solid"
-                                            name="campaign_name" placeholder="" value="" />
+                                        <input type="text" class="form-control form-control-lg form-control-solid" name="campaign_name" placeholder="" value="" />
                                         <!--end::Input-->
                                     </div>
                                     <!--end::Input group-->
@@ -1298,11 +1186,8 @@ License: For each use you must have a valid license purchased only from above li
                                             <span class="required">Company Logo</span>
 
 
-                                            <span class="ms-1" data-bs-toggle="tooltip"
-                                                title="E.g. Select a logo to represent the company that's running the campaign.">
-                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span
-                                                        class="path1"></span><span class="path2"></span><span
-                                                        class="path3"></span></i></span> </label>
+                                            <span class="ms-1" data-bs-toggle="tooltip" title="E.g. Select a logo to represent the company that's running the campaign.">
+                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i></span> </label>
                                         <!--end::Label-->
 
                                         <!--begin::Image input placeholder-->
@@ -1318,19 +1203,14 @@ License: For each use you must have a valid license purchased only from above li
                                         <!--end::Image input placeholder-->
 
                                         <!--begin::Image input-->
-                                        <div class="image-input image-input-empty image-input-outline image-input-placeholder"
-                                            data-kt-image-input="true">
+                                        <div class="image-input image-input-empty image-input-outline image-input-placeholder" data-kt-image-input="true">
                                             <!--begin::Preview existing avatar-->
                                             <div class="image-input-wrapper w-125px h-125px"></div>
                                             <!--end::Preview existing avatar-->
 
                                             <!--begin::Label-->
-                                            <label
-                                                class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow"
-                                                data-kt-image-input-action="change" data-bs-toggle="tooltip"
-                                                title="Change avatar">
-                                                <i class="ki-duotone ki-pencil fs-7"><span class="path1"></span><span
-                                                        class="path2"></span></i>
+                                            <label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" title="Change avatar">
+                                                <i class="ki-duotone ki-pencil fs-7"><span class="path1"></span><span class="path2"></span></i>
                                                 <!--begin::Inputs-->
                                                 <input type="file" name="avatar" accept=".png, .jpg, .jpeg" />
                                                 <input type="hidden" name="avatar_remove" />
@@ -1339,21 +1219,13 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--end::Label-->
 
                                             <!--begin::Cancel-->
-                                            <span
-                                                class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow"
-                                                data-kt-image-input-action="cancel" data-bs-toggle="tooltip"
-                                                title="Cancel avatar">
-                                                <i class="ki-duotone ki-cross fs-2"><span class="path1"></span><span
-                                                        class="path2"></span></i> </span>
+                                            <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="cancel" data-bs-toggle="tooltip" title="Cancel avatar">
+                                                <i class="ki-duotone ki-cross fs-2"><span class="path1"></span><span class="path2"></span></i> </span>
                                             <!--end::Cancel-->
 
                                             <!--begin::Remove-->
-                                            <span
-                                                class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow"
-                                                data-kt-image-input-action="remove" data-bs-toggle="tooltip"
-                                                title="Remove avatar">
-                                                <i class="ki-duotone ki-cross fs-2"><span class="path1"></span><span
-                                                        class="path2"></span></i> </span>
+                                            <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="remove" data-bs-toggle="tooltip" title="Remove avatar">
+                                                <i class="ki-duotone ki-cross fs-2"><span class="path1"></span><span class="path2"></span></i> </span>
                                             <!--end::Remove-->
                                         </div>
                                         <!--end::Image input-->
@@ -1376,8 +1248,7 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--begin::Radio-->
                                             <div class="form-check form-check-custom form-check-solid">
                                                 <!--begin::Input-->
-                                                <input class="form-check-input me-3" name="user_role" type="radio"
-                                                    value="0" id="fab_modal_update_role_option_0" checked='checked' />
+                                                <input class="form-check-input me-3" name="user_role" type="radio" value="0" id="fab_modal_update_role_option_0" checked='checked' />
                                                 <!--end::Input-->
 
                                                 <!--begin::Label-->
@@ -1398,8 +1269,7 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--begin::Radio-->
                                             <div class="form-check form-check-custom form-check-solid">
                                                 <!--begin::Input-->
-                                                <input class="form-check-input me-3" name="user_role" type="radio"
-                                                    value="1" id="fab_modal_update_role_option_1" />
+                                                <input class="form-check-input me-3" name="user_role" type="radio" value="1" id="fab_modal_update_role_option_1" />
                                                 <!--end::Input-->
 
                                                 <!--begin::Label-->
@@ -1420,8 +1290,7 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--begin::Radio-->
                                             <div class="form-check form-check-custom form-check-solid">
                                                 <!--begin::Input-->
-                                                <input class="form-check-input me-3" name="user_role" type="radio"
-                                                    value="2" id="fab_modal_update_role_option_2" />
+                                                <input class="form-check-input me-3" name="user_role" type="radio" value="2" id="fab_modal_update_role_option_2" />
                                                 <!--end::Input-->
 
                                                 <!--begin::Label-->
@@ -1442,8 +1311,7 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--begin::Radio-->
                                             <div class="form-check form-check-custom form-check-solid">
                                                 <!--begin::Input-->
-                                                <input class="form-check-input me-3" name="user_role" type="radio"
-                                                    value="3" id="fab_modal_update_role_option_3" />
+                                                <input class="form-check-input me-3" name="user_role" type="radio" value="3" id="fab_modal_update_role_option_3" />
                                                 <!--end::Input-->
 
                                                 <!--begin::Label-->
@@ -1465,8 +1333,7 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--begin::Radio-->
                                             <div class="form-check form-check-custom form-check-solid">
                                                 <!--begin::Input-->
-                                                <input class="form-check-input me-3" name="user_role" type="radio"
-                                                    value="4" id="fab_modal_update_role_option_4" />
+                                                <input class="form-check-input me-3" name="user_role" type="radio" value="4" id="fab_modal_update_role_option_4" />
                                                 <!--end::Input-->
 
                                                 <!--begin::Label-->
@@ -1516,8 +1383,7 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--begin::Message-->
                                             <div class="dz-message needsclick">
                                                 <!--begin::Icon-->
-                                                <i class="ki-duotone ki-file-up fs-3hx text-primary"><span
-                                                        class="path1"></span><span class="path2"></span></i>
+                                                <i class="ki-duotone ki-file-up fs-3hx text-primary"><span class="path1"></span><span class="path2"></span></i>
                                                 <!--end::Icon-->
 
                                                 <!--begin::Info-->
@@ -1543,8 +1409,7 @@ License: For each use you must have a valid license purchased only from above li
                                         <!--begin::Files-->
                                         <div class="mh-300px scroll-y me-n7 pe-7">
                                             <!--begin::File-->
-                                            <div
-                                                class="d-flex flex-stack py-4 border border-top-0 border-left-0 border-right-0 border-dashed">
+                                            <div class="d-flex flex-stack py-4 border border-top-0 border-left-0 border-right-0 border-dashed">
                                                 <div class="d-flex align-items-center">
                                                     <!--begin::Avatar-->
                                                     <div class="symbol symbol-35px">
@@ -1554,8 +1419,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                     <!--begin::Details-->
                                                     <div class="ms-6">
-                                                        <a href="#"
-                                                            class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Product
+                                                        <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Product
                                                             Specifications</a>
                                                         <div class="fw-semibold text-muted">230kb</div>
                                                     </div>
@@ -1564,9 +1428,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                 <!--begin::Menu-->
                                                 <div class="min-w-100px">
-                                                    <select class="form-select form-select-solid form-select-sm"
-                                                        data-control="select2" data-hide-search="true"
-                                                        data-placeholder="Edit">
+                                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true" data-placeholder="Edit">
                                                         <option></option>
                                                         <option value="1">Remove</option>
                                                         <option value="2">Modify</option>
@@ -1577,8 +1439,7 @@ License: For each use you must have a valid license purchased only from above li
                                             </div>
                                             <!--end::File-->
                                             <!--begin::File-->
-                                            <div
-                                                class="d-flex flex-stack py-4 border border-top-0 border-left-0 border-right-0 border-dashed">
+                                            <div class="d-flex flex-stack py-4 border border-top-0 border-left-0 border-right-0 border-dashed">
                                                 <div class="d-flex align-items-center">
                                                     <!--begin::Avatar-->
                                                     <div class="symbol symbol-35px">
@@ -1588,8 +1449,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                     <!--begin::Details-->
                                                     <div class="ms-6">
-                                                        <a href="#"
-                                                            class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Campaign
+                                                        <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Campaign
                                                             Creative Poster</a>
                                                         <div class="fw-semibold text-muted">2.4mb</div>
                                                     </div>
@@ -1598,9 +1458,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                 <!--begin::Menu-->
                                                 <div class="min-w-100px">
-                                                    <select class="form-select form-select-solid form-select-sm"
-                                                        data-control="select2" data-hide-search="true"
-                                                        data-placeholder="Edit">
+                                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true" data-placeholder="Edit">
                                                         <option></option>
                                                         <option value="1">Remove</option>
                                                         <option value="2">Modify</option>
@@ -1611,20 +1469,17 @@ License: For each use you must have a valid license purchased only from above li
                                             </div>
                                             <!--end::File-->
                                             <!--begin::File-->
-                                            <div
-                                                class="d-flex flex-stack py-4 border border-top-0 border-left-0 border-right-0 border-dashed">
+                                            <div class="d-flex flex-stack py-4 border border-top-0 border-left-0 border-right-0 border-dashed">
                                                 <div class="d-flex align-items-center">
                                                     <!--begin::Avatar-->
                                                     <div class="symbol symbol-35px">
-                                                        <img src="../../assets/media/svg/files/folder-document.svg"
-                                                            alt="icon" />
+                                                        <img src="../../assets/media/svg/files/folder-document.svg" alt="icon" />
                                                     </div>
                                                     <!--end::Avatar-->
 
                                                     <!--begin::Details-->
                                                     <div class="ms-6">
-                                                        <a href="#"
-                                                            class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Campaign
+                                                        <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Campaign
                                                             Landing Page Source</a>
                                                         <div class="fw-semibold text-muted">1.12mb</div>
                                                     </div>
@@ -1633,9 +1488,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                 <!--begin::Menu-->
                                                 <div class="min-w-100px">
-                                                    <select class="form-select form-select-solid form-select-sm"
-                                                        data-control="select2" data-hide-search="true"
-                                                        data-placeholder="Edit">
+                                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true" data-placeholder="Edit">
                                                         <option></option>
                                                         <option value="1">Remove</option>
                                                         <option value="2">Modify</option>
@@ -1646,8 +1499,7 @@ License: For each use you must have a valid license purchased only from above li
                                             </div>
                                             <!--end::File-->
                                             <!--begin::File-->
-                                            <div
-                                                class="d-flex flex-stack py-4 border border-top-0 border-left-0 border-right-0 border-dashed">
+                                            <div class="d-flex flex-stack py-4 border border-top-0 border-left-0 border-right-0 border-dashed">
                                                 <div class="d-flex align-items-center">
                                                     <!--begin::Avatar-->
                                                     <div class="symbol symbol-35px">
@@ -1657,8 +1509,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                     <!--begin::Details-->
                                                     <div class="ms-6">
-                                                        <a href="#"
-                                                            class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Landing
+                                                        <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Landing
                                                             Page Styling</a>
                                                         <div class="fw-semibold text-muted">85kb</div>
                                                     </div>
@@ -1667,9 +1518,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                 <!--begin::Menu-->
                                                 <div class="min-w-100px">
-                                                    <select class="form-select form-select-solid form-select-sm"
-                                                        data-control="select2" data-hide-search="true"
-                                                        data-placeholder="Edit">
+                                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true" data-placeholder="Edit">
                                                         <option></option>
                                                         <option value="1">Remove</option>
                                                         <option value="2">Modify</option>
@@ -1680,8 +1529,7 @@ License: For each use you must have a valid license purchased only from above li
                                             </div>
                                             <!--end::File-->
                                             <!--begin::File-->
-                                            <div
-                                                class="d-flex flex-stack py-4 border border-top-0 border-left-0 border-right-0 border-dashed">
+                                            <div class="d-flex flex-stack py-4 border border-top-0 border-left-0 border-right-0 border-dashed">
                                                 <div class="d-flex align-items-center">
                                                     <!--begin::Avatar-->
                                                     <div class="symbol symbol-35px">
@@ -1691,8 +1539,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                     <!--begin::Details-->
                                                     <div class="ms-6">
-                                                        <a href="#"
-                                                            class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Design
+                                                        <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Design
                                                             Source Files</a>
                                                         <div class="fw-semibold text-muted">48mb</div>
                                                     </div>
@@ -1701,9 +1548,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                 <!--begin::Menu-->
                                                 <div class="min-w-100px">
-                                                    <select class="form-select form-select-solid form-select-sm"
-                                                        data-control="select2" data-hide-search="true"
-                                                        data-placeholder="Edit">
+                                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true" data-placeholder="Edit">
                                                         <option></option>
                                                         <option value="1">Remove</option>
                                                         <option value="2">Modify</option>
@@ -1724,8 +1569,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                     <!--begin::Details-->
                                                     <div class="ms-6">
-                                                        <a href="#"
-                                                            class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Campaign
+                                                        <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Campaign
                                                             Plan Document</a>
                                                         <div class="fw-semibold text-muted">27kb</div>
                                                     </div>
@@ -1734,9 +1578,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                                 <!--begin::Menu-->
                                                 <div class="min-w-100px">
-                                                    <select class="form-select form-select-solid form-select-sm"
-                                                        data-control="select2" data-hide-search="true"
-                                                        data-placeholder="Edit">
+                                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true" data-placeholder="Edit">
                                                         <option></option>
                                                         <option value="1">Remove</option>
                                                         <option value="2">Modify</option>
@@ -1780,27 +1622,19 @@ License: For each use you must have a valid license purchased only from above li
                                             Gender
 
 
-                                            <span class="ms-1" data-bs-toggle="tooltip"
-                                                title="Show your ads to either men or women, or select 'All' for both">
-                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span
-                                                        class="path1"></span><span class="path2"></span><span
-                                                        class="path3"></span></i></span> </label>
+                                            <span class="ms-1" data-bs-toggle="tooltip" title="Show your ads to either men or women, or select 'All' for both">
+                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i></span> </label>
                                         <!--End::Label-->
 
                                         <!--begin::Row-->
-                                        <div class="row g-9" data-kt-buttons="true"
-                                            data-kt-buttons-target="[data-kt-button='true']">
+                                        <div class="row g-9" data-kt-buttons="true" data-kt-buttons-target="[data-kt-button='true']">
                                             <!--begin::Col-->
                                             <div class="col">
                                                 <!--begin::Option-->
-                                                <label
-                                                    class="btn btn-outline btn-outline-dashed btn-active-light-primary active d-flex text-start p-6"
-                                                    data-kt-button="true">
+                                                <label class="btn btn-outline btn-outline-dashed btn-active-light-primary active d-flex text-start p-6" data-kt-button="true">
                                                     <!--begin::Radio-->
-                                                    <span
-                                                        class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
-                                                        <input class="form-check-input" type="radio"
-                                                            name="campaign_gender" value="1" checked="checked" />
+                                                    <span class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
+                                                        <input class="form-check-input" type="radio" name="campaign_gender" value="1" checked="checked" />
                                                     </span>
                                                     <!--end::Radio-->
 
@@ -1817,14 +1651,10 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--begin::Col-->
                                             <div class="col">
                                                 <!--begin::Option-->
-                                                <label
-                                                    class="btn btn-outline btn-outline-dashed btn-active-light-primary d-flex text-start p-6"
-                                                    data-kt-button="true">
+                                                <label class="btn btn-outline btn-outline-dashed btn-active-light-primary d-flex text-start p-6" data-kt-button="true">
                                                     <!--begin::Radio-->
-                                                    <span
-                                                        class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
-                                                        <input class="form-check-input" type="radio"
-                                                            name="campaign_gender" value="2" />
+                                                    <span class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
+                                                        <input class="form-check-input" type="radio" name="campaign_gender" value="2" />
                                                     </span>
                                                     <!--end::Radio-->
 
@@ -1841,14 +1671,10 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--begin::Col-->
                                             <div class="col">
                                                 <!--begin::Option-->
-                                                <label
-                                                    class="btn btn-outline btn-outline-dashed btn-active-light-primary d-flex text-start p-6"
-                                                    data-kt-button="true">
+                                                <label class="btn btn-outline btn-outline-dashed btn-active-light-primary d-flex text-start p-6" data-kt-button="true">
                                                     <!--begin::Radio-->
-                                                    <span
-                                                        class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
-                                                        <input class="form-check-input" type="radio"
-                                                            name="campaign_gender" value="3" />
+                                                    <span class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
+                                                        <input class="form-check-input" type="radio" name="campaign_gender" value="3" />
                                                     </span>
                                                     <!--end::Radio-->
 
@@ -1873,21 +1699,15 @@ License: For each use you must have a valid license purchased only from above li
                                             Age
 
 
-                                            <span class="ms-1" data-bs-toggle="tooltip"
-                                                title="Select the minimum and maximum age of the people who will find your ad relevant.">
-                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span
-                                                        class="path1"></span><span class="path2"></span><span
-                                                        class="path3"></span></i></span> </label>
+                                            <span class="ms-1" data-bs-toggle="tooltip" title="Select the minimum and maximum age of the people who will find your ad relevant.">
+                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i></span> </label>
                                         <!--End::Label-->
 
                                         <!--begin::Slider-->
                                         <div class="d-flex flex-stack">
-                                            <div id="fab_modal_create_campaign_age_min"
-                                                class="fs-7 fw-semibold text-muted"></div>
-                                            <div id="fab_modal_create_campaign_age_slider"
-                                                class="noUi-sm w-100 ms-5 me-8"></div>
-                                            <div id="fab_modal_create_campaign_age_max"
-                                                class="fs-7 fw-semibold text-muted"></div>
+                                            <div id="fab_modal_create_campaign_age_min" class="fs-7 fw-semibold text-muted"></div>
+                                            <div id="fab_modal_create_campaign_age_slider" class="noUi-sm w-100 ms-5 me-8"></div>
+                                            <div id="fab_modal_create_campaign_age_max" class="fs-7 fw-semibold text-muted"></div>
                                         </div>
                                         <!--end::Slider-->
                                     </div>
@@ -1900,17 +1720,12 @@ License: For each use you must have a valid license purchased only from above li
                                             Location
 
 
-                                            <span class="ms-1" data-bs-toggle="tooltip"
-                                                title="Enter one or more location points for more specific targeting.">
-                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span
-                                                        class="path1"></span><span class="path2"></span><span
-                                                        class="path3"></span></i></span> </label>
+                                            <span class="ms-1" data-bs-toggle="tooltip" title="Enter one or more location points for more specific targeting.">
+                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i></span> </label>
                                         <!--End::Label-->
 
                                         <!--begin::Tagify-->
-                                        <input class="form-control d-flex align-items-center" value=""
-                                            id="fab_modal_create_campaign_location"
-                                            data-kt-flags-path="/seven-html-pro/assets/media/flags/" />
+                                        <input class="form-control d-flex align-items-center" value="" id="fab_modal_create_campaign_location" data-kt-flags-path="/seven-html-pro/assets/media/flags/" />
                                         <!--end::Tagify-->
                                     </div>
                                     <!--end::Input group-->
@@ -1945,19 +1760,14 @@ License: For each use you must have a valid license purchased only from above li
                                             Campaign Duration
 
 
-                                            <span class="ms-1" data-bs-toggle="tooltip"
-                                                title="Choose how long you want your ad to run for">
-                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span
-                                                        class="path1"></span><span class="path2"></span><span
-                                                        class="path3"></span></i></span> </label>
+                                            <span class="ms-1" data-bs-toggle="tooltip" title="Choose how long you want your ad to run for">
+                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i></span> </label>
                                         <!--end::Label-->
 
                                         <!--begin::Duration option-->
                                         <div class="d-flex gap-9 mb-7">
                                             <!--begin::Button-->
-                                            <button type="button"
-                                                class="btn btn-outline btn-outline-dashed btn-active-light-primary active"
-                                                id="fab_modal_create_campaign_duration_all">
+                                            <button type="button" class="btn btn-outline btn-outline-dashed btn-active-light-primary active" id="fab_modal_create_campaign_duration_all">
                                                 Continuous duration<br />
                                                 <span class="fs-7">Your ad will run continuously for a daily
                                                     budget.</span>
@@ -1965,9 +1775,7 @@ License: For each use you must have a valid license purchased only from above li
                                             <!--end::Button-->
 
                                             <!--begin::Button-->
-                                            <button type="button"
-                                                class="btn btn-outline btn-outline-dashed btn-active-light-primary btn-outline-default"
-                                                id="fab_modal_create_campaign_duration_fixed">
+                                            <button type="button" class="btn btn-outline btn-outline-dashed btn-active-light-primary btn-outline-default" id="fab_modal_create_campaign_duration_fixed">
                                                 Fixed duration<br />
                                                 <span class="fs-7">Your ad will run on the specified dates
                                                     only.</span>
@@ -1977,8 +1785,7 @@ License: For each use you must have a valid license purchased only from above li
                                         <!--end::Duration option-->
 
                                         <!--begin::Datepicker-->
-                                        <input class="form-control form-control-solid d-none"
-                                            placeholder="Pick date & time" id="fab_modal_create_campaign_datepicker" />
+                                        <input class="form-control form-control-solid d-none" placeholder="Pick date & time" id="fab_modal_create_campaign_datepicker" />
                                         <!--end::Datepicker-->
                                     </div>
                                     <!--end::Input group-->
@@ -1991,19 +1798,15 @@ License: For each use you must have a valid license purchased only from above li
                                             Daily Budget
 
 
-                                            <span class="ms-1" data-bs-toggle="tooltip"
-                                                title="Choose the budget allocated for each day. Higher budget will generate better results">
-                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span
-                                                        class="path1"></span><span class="path2"></span><span
-                                                        class="path3"></span></i></span> </label>
+                                            <span class="ms-1" data-bs-toggle="tooltip" title="Choose the budget allocated for each day. Higher budget will generate better results">
+                                                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i></span> </label>
                                         <!--end::Label-->
 
                                         <!--begin::Slider-->
                                         <div class="d-flex flex-column text-center">
                                             <div class="d-flex align-items-start justify-content-center mb-7">
                                                 <span class="fw-bold fs-4 mt-1 me-2">$</span>
-                                                <span class="fw-bold fs-3x"
-                                                    id="fab_modal_create_campaign_budget_label"></span>
+                                                <span class="fw-bold fs-3x" id="fab_modal_create_campaign_budget_label"></span>
                                                 <span class="fw-bold fs-3x">.00</span>
                                             </div>
                                             <div id="fab_modal_create_campaign_budget_slider" class="noUi-sm"></div>
@@ -2037,13 +1840,11 @@ License: For each use you must have a valid license purchased only from above li
 
                                     <!--begin::Actions-->
                                     <div class="d-flex flex-center pb-20">
-                                        <button id="fab_modal_create_campaign_create_new" type="button"
-                                            class="btn btn-lg btn-light me-3" data-kt-element="complete-start">
+                                        <button id="fab_modal_create_campaign_create_new" type="button" class="btn btn-lg btn-light me-3" data-kt-element="complete-start">
                                             Create New Campaign
                                         </button>
 
-                                        <a href="#" class="btn btn-lg btn-primary" data-bs-toggle="tooltip"
-                                            title="Coming Soon">
+                                        <a href="#" class="btn btn-lg btn-primary" data-bs-toggle="tooltip" title="Coming Soon">
                                             View Campaign
                                         </a>
                                     </div>
@@ -2051,8 +1852,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                     <!--begin::Illustration-->
                                     <div class="text-center px-4">
-                                        <img src="../../assets/media/illustrations/sigma-1/9.png" alt=""
-                                            class="mww-100 mh-350px" />
+                                        <img src="../../assets/media/illustrations/sigma-1/9.png" alt="" class="mww-100 mh-350px" />
                                     </div>
                                     <!--end::Illustration-->
                                 </div>
@@ -2062,32 +1862,26 @@ License: For each use you must have a valid license purchased only from above li
                             <div class="d-flex flex-stack pt-10">
                                 <!--begin::Wrapper-->
                                 <div class="me-2">
-                                    <button type="button" class="btn btn-lg btn-light-primary me-3"
-                                        data-kt-stepper-action="previous" data-kt-stepper-state="hide-on-last-step">
-                                        <i class="ki-duotone ki-arrow-left fs-3 me-1"><span class="path1"></span><span
-                                                class="path2"></span></i> Back
+                                    <button type="button" class="btn btn-lg btn-light-primary me-3" data-kt-stepper-action="previous" data-kt-stepper-state="hide-on-last-step">
+                                        <i class="ki-duotone ki-arrow-left fs-3 me-1"><span class="path1"></span><span class="path2"></span></i> Back
                                     </button>
                                 </div>
                                 <!--end::Wrapper-->
 
                                 <!--begin::Wrapper-->
                                 <div>
-                                    <button type="button" class="btn btn-lg btn-primary"
-                                        data-kt-stepper-action="submit">
+                                    <button type="button" class="btn btn-lg btn-primary" data-kt-stepper-action="submit">
                                         <span class="indicator-label">
                                             Submit
-                                            <i class="ki-duotone ki-arrow-right fs-3 ms-2 me-0"><span
-                                                    class="path1"></span><span class="path2"></span></i> </span>
+                                            <i class="ki-duotone ki-arrow-right fs-3 ms-2 me-0"><span class="path1"></span><span class="path2"></span></i> </span>
                                         <span class="indicator-progress">
-                                            Please wait... <span
-                                                class="spinner-border spinner-border-sm align-middle ms-2"></span>
+                                            Please wait... <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
                                         </span>
                                     </button>
 
                                     <button type="button" class="btn btn-lg btn-primary" data-kt-stepper-action="next">
                                         Continue
-                                        <i class="ki-duotone ki-arrow-right fs-3 ms-1 me-0"><span
-                                                class="path1"></span><span class="path2"></span></i> </button>
+                                        <i class="ki-duotone ki-arrow-right fs-3 ms-1 me-0"><span class="path1"></span><span class="path2"></span></i> </button>
                                 </div>
                                 <!--end::Wrapper-->
                             </div>
@@ -2149,8 +1943,7 @@ License: For each use you must have a valid license purchased only from above li
                     <!--end::Separator-->
 
                     <!--begin::Textarea-->
-                    <textarea class="form-control form-control-solid mb-8" rows="3"
-                        placeholder="Type or paste emails here">
+                    <textarea class="form-control form-control-solid mb-8" rows="3" placeholder="Type or paste emails here">
                 </textarea>
                     <!--end::Textarea-->
 
@@ -2185,8 +1978,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1">Guest</option>
                                         <option value="2" selected>Owner</option>
                                         <option value="3">Can Edit</option>
@@ -2219,8 +2011,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1" selected>Guest</option>
                                         <option value="2">Owner</option>
                                         <option value="3">Can Edit</option>
@@ -2252,8 +2043,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1">Guest</option>
                                         <option value="2">Owner</option>
                                         <option value="3" selected>Can Edit</option>
@@ -2285,8 +2075,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1">Guest</option>
                                         <option value="2" selected>Owner</option>
                                         <option value="3">Can Edit</option>
@@ -2318,8 +2107,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1">Guest</option>
                                         <option value="2">Owner</option>
                                         <option value="3" selected>Can Edit</option>
@@ -2352,8 +2140,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1">Guest</option>
                                         <option value="2" selected>Owner</option>
                                         <option value="3">Can Edit</option>
@@ -2385,8 +2172,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1">Guest</option>
                                         <option value="2">Owner</option>
                                         <option value="3" selected>Can Edit</option>
@@ -2419,8 +2205,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1">Guest</option>
                                         <option value="2" selected>Owner</option>
                                         <option value="3">Can Edit</option>
@@ -2453,8 +2238,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1" selected>Guest</option>
                                         <option value="2">Owner</option>
                                         <option value="3">Can Edit</option>
@@ -2486,8 +2270,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1">Guest</option>
                                         <option value="2">Owner</option>
                                         <option value="3" selected>Can Edit</option>
@@ -2520,8 +2303,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1">Guest</option>
                                         <option value="2" selected>Owner</option>
                                         <option value="3">Can Edit</option>
@@ -2553,8 +2335,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1" selected>Guest</option>
                                         <option value="2">Owner</option>
                                         <option value="3">Can Edit</option>
@@ -2587,8 +2368,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1">Guest</option>
                                         <option value="2">Owner</option>
                                         <option value="3" selected>Can Edit</option>
@@ -2620,8 +2400,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1">Guest</option>
                                         <option value="2">Owner</option>
                                         <option value="3" selected>Can Edit</option>
@@ -2654,8 +2433,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1">Guest</option>
                                         <option value="2" selected>Owner</option>
                                         <option value="3">Can Edit</option>
@@ -2687,8 +2465,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1" selected>Guest</option>
                                         <option value="2">Owner</option>
                                         <option value="3">Can Edit</option>
@@ -2720,8 +2497,7 @@ License: For each use you must have a valid license purchased only from above li
 
                                 <!--begin::Access menu-->
                                 <div class="ms-2 w-100px">
-                                    <select class="form-select form-select-solid form-select-sm" data-control="select2"
-                                        data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
+                                    <select class="form-select form-select-solid form-select-sm" data-control="select2" data-dropdown-parent="#fab_modal_invite_friends" data-hide-search="true">
                                         <option value="1">Guest</option>
                                         <option value="2">Owner</option>
                                         <option value="3" selected>Can Edit</option>

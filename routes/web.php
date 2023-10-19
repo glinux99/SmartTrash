@@ -16,9 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::post('/trash', function () {
+    return view('welcome');
+})->name('store.trash');
 Route::get('/map', function () {
     return view('dashboard.mapView');
-});
+})->name('goma.map');
 Route::get('/analyses', function () {
     return view('dashboard.analyses');
 });

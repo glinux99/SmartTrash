@@ -6,10 +6,10 @@
     <!--begin::Primary-->
     <div class="aside-primary d-flex flex-column align-items-lg-center flex-row-auto">
         <!--begin::Logo-->
-        <div class="aside-logo d-none d-lg-flex flex-column align-items-center flex-column-auto py-10"
+        <div class="aside-logo d-none d-lg-flex flex-column align-items-center flex-column-auto pt-5 pb-10"
             id="fab_aside_logo">
             <a href="/">
-                <img alt="Logo" src="{{ asset('assets/img/pnc.png')}}" class="h-50px" />
+                <img alt="Logo" src="{{ asset('assets/img/logo.png')}}" class="h-60px" />
             </a>
         </div>
         <!--end::Logo-->
@@ -1016,7 +1016,7 @@
 
                 <!--begin::Footer-->
                 <div class="flex-column-auto pt-10 px-5" id="fab_aside_secondary_footer">
-                    <a href="/"
+                    <a href="{{ route('goma.map') }}"
                         class="btn btn-bg-light btn-color-gray-600 btn-flex btn-active-color-primary flex-center w-100"
                         data-bs-toggle="tooltip" data-bs-custom-class="tooltip-dark" data-bs-trigger="hover"
                         data-bs-offset="0,5" data-bs-dismiss-="click" title="200+ point de surveuillance routiere">
@@ -1035,7 +1035,7 @@
 
     <!--begin::Aside Toggle-->
     <button
-        class="btn btn-sm btn-icon bg-body btn-color-gray-600 btn-active-primary position-absolute translate-middle start-100 end-0 bottom-0 shadow-sm d-none d-lg-flex "
+        class="btn btn-sm btn-icon bg-body btn-color-success btn-active-success position-absolute translate-middle start-100 end-0 bottom-0 shadow-sm d-none d-lg-flex "
         data-kt-toggle="true" data-kt-toggle-state="active" data-kt-toggle-target="body"
         data-kt-toggle-name="aside-minimize" style="margin-bottom: 1.35rem">
 
