@@ -24,8 +24,8 @@ Tableau de bord
                     <!--begin::Card body-->
                     <div class="card-body p-9">
                         <!--begin::Heading-->
-                        <div class="fs-2hx fw-bold">237</div>
-                        <div class="fs-4 fw-semibold text-gray-400 mb-7">Vehicules enregistrees</div>
+                        <div class="fs-2hx fw-bold">{{ $poubelleCount}}</div>
+                        <div class="fs-4 fw-semibold text-gray-400 mb-7">Poubelles enregistrees</div>
                         <!--end::Heading-->
 
                         <!--begin::Wrapper-->
@@ -42,23 +42,23 @@ Tableau de bord
                                 <div class="d-flex fs-6 fw-semibold align-items-center mb-3">
                                     <div class="bullet bg-primary me-3"></div>
                                     <div class="text-gray-400">Active</div>
-                                    <div class="ms-auto fw-bold text-gray-700">30</div>
+                                    <div class="ms-auto fw-bold text-gray-700">{{ $trashActive}}</div>
                                 </div>
                                 <!--end::Label-->
 
                                 <!--begin::Label-->
                                 <div class="d-flex fs-6 fw-semibold align-items-center mb-3">
                                     <div class="bullet bg-success me-3"></div>
-                                    <div class="text-gray-400">Completet</div>
-                                    <div class="ms-auto fw-bold text-gray-700">45</div>
+                                    <div class="text-gray-400">Pleine</div>
+                                    <div class="ms-auto fw-bold text-gray-700">{{ $trashPleine}}</div>
                                 </div>
                                 <!--end::Label-->
 
                                 <!--begin::Label-->
                                 <div class="d-flex fs-6 fw-semibold align-items-center">
                                     <div class="bullet bg-gray-300 me-3"></div>
-                                    <div class="text-gray-400">Expire</div>
-                                    <div class="ms-auto fw-bold text-gray-700">25</div>
+                                    <div class="text-gray-400">Non remplie</div>
+                                    <div class="ms-auto fw-bold text-gray-700">{{ $trashOk}}</div>
                                 </div>
                                 <!--end::Label-->
                             </div>
@@ -76,8 +76,8 @@ Tableau de bord
                 <div class="card  h-100">
                     <div class="card-body p-9">
                         <!--begin::Heading-->
-                        <div class="fs-2hx fw-bold">49</div>
-                        <div class="fs-4 fw-semibold text-gray-400 mb-7">Proprietaires</div>
+                        <div class="fs-2hx fw-bold">{{ $users->count()}}</div>
+                        <div class="fs-4 fw-semibold text-gray-400 mb-7">Utilisateurs</div>
                         <!--end::Heading-->
 
                         <!--begin::Users group-->
@@ -85,16 +85,21 @@ Tableau de bord
                             <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Joackim">
                                 <span class="symbol-label bg-warning text-inverse-warning fw-bold">D</span>
                             </div>
-                            @for($i = 0; $i < 7; $i++) <div class="symbol symbol-35px symbol-circle"
-                                data-bs-toggle="tooltip" title="linux99">
-                                <img alt="Pic" src="{{ asset('assets/img/linux.jpg')}}" />
+                            @foreach ($users as $index=>$user)
+                            @if ($index <3) <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
+                                title="linux99">
+                                <img alt="Pic" src="{{ asset($user->avatar)}}" />
                         </div>
-                        @endfor
+                        @endif
+                        @endforeach
 
+                        @if ($users->count()>3)
                         <a href="#" class="symbol symbol-35px symbol-circle" data-bs-toggle="modal"
                             data-bs-target="#fab_modal_view_users">
-                            <span class="symbol-label bg-dark text-gray-300 fs-8 fw-bold">+42</span>
+                            <span class="symbol-label bg-dark text-gray-300 fs-8 fw-bold">+{{$users->count()}}</span>
                         </a>
+
+                        @endif
                     </div>
                     <!--end::Users group-->
 

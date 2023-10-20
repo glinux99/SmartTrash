@@ -543,6 +543,10 @@ var KTUpdateAccount = (function () {
 })();
 
 KTUtil.onDOMContentLoaded(function () {
-    KTCreateAccount.init();
-    KTUpdateAccount.init();
+    try {
+        KTCreateAccount.init();
+    } catch (error) {}
+    try {
+        KTUpdateAccount.init();
+    } catch (error) {}
 });

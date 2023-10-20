@@ -6,7 +6,7 @@ import mapView from "./maps/mapView.vue";
 
 const app = createApp({
     components: {
-        Welcome,
+        // Welcome,
         mapView,
     },
 });

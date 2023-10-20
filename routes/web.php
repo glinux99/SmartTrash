@@ -32,9 +32,7 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
     Route::get('/map', function () {
         return view('dashboard.mapView');
     })->name('goma.map');
-    Route::get('/analyses', function () {
-        return view('dashboard.analyses');
-    });
+
 
     Route::get('/vehicules', function () {
         return view('dashboard.vehicules');
@@ -75,7 +73,7 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
     });
     Route::resources([
         'activity' => ActivityController::class,
-        'analyse' => AnalyseController::class,
+        'analyses' => AnalyseController::class,
         'connection' => ConnectionController::class,
         'log' => LogController::class,
         'notification' => NotificationController::class,

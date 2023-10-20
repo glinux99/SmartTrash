@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Analyse;
+use App\Models\Trash;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class AnalyseController extends Controller
@@ -12,7 +14,12 @@ class AnalyseController extends Controller
      */
     public function index()
     {
-        //
+        $poubelleCount = Trash::count();
+        $users = User::all();
+        $trashActive = Trash::count();
+        $trashPleine = Trash::count();
+        $trashOk = Trash::count();
+        return view('dashboard.analyses', ['poubelleCount' => $poubelleCount, 'users' => $users, 'trashActive' => $trashActive, 'trashPleine' => $trashPleine, 'trashOk' => $trashOk]);
     }
 
     /**
