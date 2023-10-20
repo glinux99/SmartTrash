@@ -9,7 +9,7 @@ Tableau de bord
         Acceuil </a>
 </li>
 <li class="breadcrumb-item text-dark">
-    Vehicules </li>
+    poubelles </li>
 @endsection
 @section('content')
 <map-trash />
@@ -25,7 +25,7 @@ Tableau de bord
                 <div class="d-flex align-items-center position-relative my-1">
                     <i class="ki-duotone ki-magnifier fs-3 position-absolute ms-5"><span class="path1"></span><span
                             class="path2"></span></i> <input type="text" data-kt-user-table-filter="search"
-                        class="form-control form-control-solid w-250px ps-13" placeholder="Chercher un vehicule">
+                        class="form-control form-control-solid w-250px ps-13" placeholder="Chercher une poubelle">
                 </div>
 
             </div>
@@ -93,17 +93,17 @@ Tableau de bord
                                 </th>
                                 <th class="min-w-125px sorting" tabindex="0" aria-controls="fab_table_users" rowspan="1"
                                     colspan="1" style="width: 206.533px;"
-                                    aria-label="Marque/Model: activate to sort column ascending">Marque/Model</th>
+                                    aria-label="Marque/Model: activate to sort column ascending">CouleurCoordonnees</th>
                                 <th></th>
                                 <th class="min-w-125px sorting" tabindex="0" aria-controls="fab_table_users" rowspan="1"
                                     colspan="1" style="width: 125px;"
-                                    aria-label="Immatric.: activate to sort column ascending">Immatric.</th>
+                                    aria-label="Immatric.: activate to sort column ascending">Adresse Ip.</th>
                                 <th class="min-w-125px sorting" tabindex="0" aria-controls="fab_table_users" rowspan="1"
                                     colspan="1" style="width: 125px;"
                                     aria-label="Proprietaire : activate to sort column ascending">Proprietaire </th>
                                 <th class="min-w-25px sorting fs-8" tabindex="0" aria-controls="fab_table_users"
                                     rowspan="1" colspan="1" style="width: 25px;"
-                                    aria-label="Nbre d'infractions: activate to sort column ascending">Nbr.Infr</th>
+                                    aria-label="Nbre d'infractions: activate to sort column ascending">Status</th>
                                 <th class="text-end min-w-100px sorting_disabled" rowspan="1" colspan="1"
                                     style="width: 100px;" aria-label="Actions">Actions</th>
                             </tr>
@@ -131,6 +131,7 @@ Tableau de bord
 
 
 
+                            @foreach ($trashes as $trash)
                             <tr class="even/odd">
                                 <td>
                                     <div class="form-check form-check-sm form-check-custom form-check-solid">
@@ -142,7 +143,7 @@ Tableau de bord
                                     <div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
                                         <a href="/">
                                             <div class="symbol-label fs-3 bg-light-danger text-danger">
-                                                <i class="ki-duotone ki-car fs-2x"><span class="path1"></span><span
+                                                <i class="ki-duotone ki-trash fs-2x"><span class="path1"></span><span
                                                         class="path2"></span></i>
                                             </div>
                                         </a>
@@ -150,25 +151,24 @@ Tableau de bord
 
 
                                     <div class="d-flex flex-column">
-                                        <a href="view.html" class="text-gray-800 text-hover-primary mb-1">Toyota /
-                                            Benz</a>
-                                        <span>Essence</span>
+                                        <a href="/" class="text-gray-800 text-hover-primary mb-1">{{
+                                            $trash->couleur}}</a>
+                                        <span>{{ $trash->longitude}} / {{ $trash->latitude}}</span>
                                     </div>
 
                                 </td>
                                 <td>
                                 </td>
                                 <td data-order="2023-10-08T02:23:51+02:00">
-                                    <div class="badge badge-light fw-bold">ACLM20 CD</div>
+                                    <div class="badge badge-light fw-bold">{{ $trash->ip}}</div>
                                 </td>
                                 <td>
-                                    <div class="badge badge-light-success fw-bold">Daniel Kikimba</div>
+                                    <div class="badge badge-light-success fw-bold">{{ $trash->name}}</div>
                                 </td>
                                 <td data-order="2023-08-19T20:43:00+02:00" class="text-center">
-                                    4 </td>
+                                    {{ $trash->status}} </td>
                                 <td class="text-end">
-                                    <button class="btn btn-icon btn-active-light-primary w-30px h-30px me-3"
-                                        @click="editModal(product)">
+                                    <button class="btn btn-icon btn-active-light-primary w-30px h-30px me-3">
                                         <i class="ki-duotone ki-pencil fs-3"><span class="path1"></span><span
                                                 class="path2"></span><span class="path3"></span><span
                                                 class="path4"></span><span class="path5"></span></i>
@@ -181,6 +181,7 @@ Tableau de bord
                                     </button>
                                 </td>
                             </tr>
+                            @endforeach
 
                         </tbody>
                     </table>

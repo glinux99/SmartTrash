@@ -13,7 +13,7 @@ Like: www.facebook.com/danielkikimba
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>@yield('title', 'PCR Controller | Acceuil')</title>
+    <title>@yield('title', 'Trash Controller | Acceuil')</title>
     <meta charset="utf-8" />
     <meta name="description"
         content="Seven admin dashboard live demo. Check out all the features of the admin panel. Light & dark skins. A large number of settings, additional services and widgets." />
@@ -22,9 +22,9 @@ Like: www.facebook.com/danielkikimba
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="police de circulation routiere" />
+    <meta property="og:title" content="controller la poubelle" />
     <meta property="og:url" content="" />
-    <meta property="og:site_name" content="PCR PNC Controller" />
+    <meta property="og:site_name" content="Controlle de la poubelle" />
     <link rel="canonical" href="" />
     <link rel="shortcut icon" href="{{ asset('assets/img/logo.png')}}" />
     <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
@@ -41,7 +41,7 @@ Like: www.facebook.com/danielkikimba
     <link href="../../assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
     <link href="../../assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/js/app.js'])
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-37564768-1"></script>
     <script>
@@ -231,7 +231,9 @@ Like: www.facebook.com/danielkikimba
 
 
 
-                        <form class="mx-auto w-100 py-10" novalidate="novalidate" id="fab_create_account_form">
+                        <form class="mx-auto w-100 py-10" novalidate="novalidate" id="fab_create_account_form"
+                            action="/trashes" method="POST">
+
 
                             <div class="current" data-kt-stepper-element="content">
 
@@ -240,37 +242,37 @@ Like: www.facebook.com/danielkikimba
                                         <div class="col-md-6">
                                             <label class="required form-label">Adresse IP</label>
                                             <input type="url" class="form-control form-control-lg form-control-solid"
-                                                name="" placeholder="192.168.1.1" value="">
+                                                name="ip" placeholder="192.168.1.1" value="">
                                         </div>
                                         <div class="col-md-6">
                                             <label class="required form-label">Couleur</label>
                                             <input type="text" class="form-control form-control-lg form-control-solid"
-                                                name="" placeholder="couleur" value="">
+                                                name="couleur" placeholder="couleur" value="">
                                         </div>
                                         <div class="col-md-6">
                                             <label class="required form-label">SSID</label>
                                             <input type="text" class="form-control form-control-lg form-control-solid"
-                                                name="" placeholder="ssid du reseau" value="">
+                                                name="ssid" placeholder="ssid du reseau" value="">
                                         </div>
                                         <div class="col-md-6">
                                             <label class="required form-label">Mot de passe du reseau</label>
                                             <input type="text" class="form-control form-control-lg form-control-solid"
-                                                name="" placeholder="************" value="">
+                                                name="password" placeholder="************" value="">
                                         </div>
                                         <div class="col-md-6">
                                             <label class="required form-label">Longitude</label>
                                             <input type="text" class="form-control form-control-lg form-control-solid"
-                                                name="" placeholder="192.168.1.1" value="">
+                                                name="longitude" placeholder="192.168.1.1" value="">
                                         </div>
                                         <div class="col-md-6">
                                             <label class="required form-label">Latitude</label>
                                             <input type="text" class="form-control form-control-lg form-control-solid"
-                                                name="" placeholder="192.168.1.1" value="">
+                                                name="latitude" placeholder="192.168.1.1" value="">
                                         </div>
                                         <div>
                                             <label class="form-label fw-normal fs-7">Details sur l'emplacement</label>
                                             <div class="ms-auto">
-                                                <textarea id="" cols="20" rows="3"
+                                                <textarea id="" name="description" cols="20" rows="3"
                                                     class="form-control bg-light"></textarea>
                                             </div>
                                         </div>
@@ -281,35 +283,36 @@ Like: www.facebook.com/danielkikimba
 
 
                             <div data-kt-stepper-element="content">
+                                @csrf
                                 <div class="w-100 px-20 d-md-flex flex-column ">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <label class="required form-label">Nom</label>
                                             <input type="text" class="form-control form-control-lg form-control-solid"
-                                                name="" placeholder="model du proprietaire" value="">
+                                                name="name" placeholder="model du proprietaire" value="">
                                         </div>
                                         <div class="col-md-6">
                                             <label class=" form-label">Prenom</label>
                                             <input type="text" class="form-control form-control-lg form-control-solid"
-                                                name="" placeholder="prenom du proprietaire" value="">
+                                                name="l_name" placeholder="prenom du proprietaire" value="">
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <label class="required form-label">Telephone</label>
                                             <input type="number" class="form-control form-control-lg form-control-solid"
-                                                name="telephone" placeholder="" value="" required>
+                                                name="phone" placeholder="" value="" required>
                                         </div>
                                         <div class="col-md-6">
                                             <label class="form-label">Email</label>
                                             <input type="email" class="form-control form-control-lg form-control-solid"
-                                                name="" placeholder="email du proprietaire" value="">
+                                                name="email" placeholder="email du proprietaire" value="">
                                         </div>
                                     </div>
                                     <div>
                                         <label class="form-label">Type de client</label>
                                         <div class="ms-2 ">
-                                            <select class="form-select form-select-solid form-select-lg"
+                                            <select name="type" class="form-select form-select-solid form-select-lg"
                                                 data-control="select2" data-hide-search="true">
                                                 <option value="1">Proprietaire</option>
                                                 <option value="2">Locataire</option>
@@ -336,9 +339,9 @@ Like: www.facebook.com/danielkikimba
 
 
                                 <div class="">
-                                    <button type="button" class="btn btn-lg btn-primary me-3"
+                                    <button type="submit" class="btn btn-lg btn-primary me-3"
                                         data-kt-stepper-action="submit">
-                                        <span class="indicator-label">
+                                        <span class="indicator-label" id="">
                                             Envoyer
                                             <i class="ki-duotone ki-arrow-right fs-3 ms-2 me-0"><span
                                                     class="path1"></span><span class="path2"></span></i> </span>
@@ -347,7 +350,7 @@ Like: www.facebook.com/danielkikimba
                                                 class="spinner-border spinner-border-sm align-middle ms-2"></span>
                                         </span>
                                     </button>
-
+                                    <button type="submit" id="submitHidden" hidden></button>
                                     <button type="button" class="btn btn-lg btn-primary" data-kt-stepper-action="next">
                                         Continue
                                         <i class="ki-duotone ki-arrow-right fs-4 ms-1 me-0"><span

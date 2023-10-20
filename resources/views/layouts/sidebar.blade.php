@@ -175,12 +175,13 @@
                             <!--begin::Username-->
                             <div class="d-flex flex-column">
                                 <div class="fw-bold d-flex align-items-center fs-5">
-                                    linx99 <span
-                                        class="badge badge-light-success fw-bold fs-8 px-2 py-1 ms-2">Agent</span>
+                                    {{ Auth::user()->name}} <span
+                                        class="badge badge-light-success fw-bold fs-8 px-2 py-1 ms-2">{{
+                                        Auth::user()->type}} </span>
                                 </div>
 
                                 <a href="#" class="fw-semibold text-muted text-hover-primary fs-7">
-                                    linux@gmail.com </a>
+                                    {{ Auth::user()->email}} </a>
                             </div>
                             <!--end::Username-->
                         </div>
@@ -193,7 +194,7 @@
 
                     <!--begin::Menu item-->
                     <div class="menu-item px-5">
-                        <a href="/" class="menu-link px-5">
+                        <a href="/settings" class="menu-link px-5">
                             Mon profil
                         </a>
                     </div>
@@ -376,13 +377,13 @@
                                 <!--begin::Projects-->
                                 <div class="m-0">
                                     <!--begin::Heading-->
-                                    <h1 class="text-gray-800 fw-semibold mb-6 mx-5">Vehicules</h1>
+                                    <h1 class="text-gray-800 fw-semibold mb-6 mx-5">Poubelles</h1>
                                     <!--end::Heading-->
 
                                     <!--begin::Items-->
                                     <div class="mb-10">
                                         <!--begin::Item-->
-                                        <a href="/vehicules" class="custom-list d-flex align-items-center px-5 py-4">
+                                        <a href="/trashes" class="custom-list d-flex align-items-center px-5 py-4">
                                             <!--begin::Symbol-->
                                             <div class="symbol symbol-40px me-5">
                                                 <span class="symbol-label">
@@ -454,10 +455,10 @@
                                             <!--end:Menu item-->
                                             <!--begin:Menu item-->
                                             <div class="menu-item">
-                                                <!--begin:Menu link--><a class="menu-link" href="/vehicules"><span
+                                                <!--begin:Menu link--><a class="menu-link" href="/trashes"><span
                                                         class="menu-bullet"><span
                                                             class="bullet bullet-dot"></span></span><span
-                                                        class="menu-title">Vehicules</span></a>
+                                                        class="menu-title">Poubelles</span></a>
                                                 <!--end:Menu link-->
                                             </div>
                                             <!--end:Menu item-->

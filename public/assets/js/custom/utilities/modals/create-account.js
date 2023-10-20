@@ -235,45 +235,7 @@ var KTCreateAccount = (function () {
                                     ? (e.preventDefault(),
                                       (o.disabled = !0),
                                       o.setAttribute("data-kt-indicator", "on"),
-                                      await axios
-                                          .post("/auth/login")
-                                          .then(function (response) {
-                                              if (response) {
-                                                  if (redirectUrl) {
-                                                      console.log(response);
-                                                      // location.href = redirectUrl;
-                                                  }
-                                              } else {
-                                                  bootstrap.Modal(e).hide();
-                                                  $(".modal-backdrop").remove();
-                                                  //   Swal.fire({
-                                                  //       text: "Sorry, the email or password is incorrect, please try again.",
-                                                  //       icon: "error",
-                                                  //       buttonsStyling: false,
-                                                  //       confirmButtonText:
-                                                  //           "D'accord!",
-                                                  //       customClass: {
-                                                  //           confirmButton:
-                                                  //               "btn btn-primary",
-                                                  //       },
-                                                  //   });
-                                              }
-                                          })
-                                          .catch(function (error) {
-                                              console.log(error);
-                                              location.href = "/";
-                                              //   Swal.fire({
-                                              //       text: "Désolé, il semble qu'il y ait des erreurs détectées, veuillez réessayer.",
-                                              //       icon: "error",
-                                              //       buttonsStyling: false,
-                                              //       confirmButtonText:
-                                              //           "D'accord!",
-                                              //       customClass: {
-                                              //           confirmButton:
-                                              //               "btn btn-primary",
-                                              //       },
-                                              //   });
-                                          }))
+                                      $("#submitHidden").click())
                                     : Swal.fire({
                                           text: "Désolé, il semble que des erreurs aient été détectées, veuillez réessayer.",
                                           icon: "error",
