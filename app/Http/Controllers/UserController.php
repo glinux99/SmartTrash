@@ -88,19 +88,40 @@ class UserController extends Controller
         // ]);
 
         // Update the user
-        $user->update($request->except(['avatar']));
+        $hashed_password = $user->password;
+        $confirmemailpassword = $request['confirmemailpassword'];
+        $password = $request['password'];
 
-        if ($request->hasFile('avatar')) {
-            $fileName = 'avatar-' . $user->id . '.png';
-            $path = $request->file('avatar')->storeAs(
-                'avatar' . $user->id,
-                $fileName,
-                'public'
-            );
+        //return  Hash::check($password, $hashed_password);
+        if (Hash::check($password, $hashed_password)) {
 
-
-            $user->update(['avatar' => "/" . "storage/" . $path]);
+            $request['password'] = bcrypt($request->newpassword);
+            $user->update($request->except(['avatar']));
         }
+        if (Hash::check($confirmemailpassword, $hashed_password)) {
+
+            $request['password'] = bcrypt($request->confirmemailpassword);
+            $user->update($request->except(['avatar']));
+        } else {
+
+            // Le mot de passe ne correspond pas
+            if (!isset($request['confirmemailpassword']) && !isset($request['newpassword'])) {
+                $user->update($request->except(['avatar']));
+
+                if ($request->hasFile('avatar')) {
+                    $fileName = 'avatar-' . $user->id . '.png';
+                    $path = $request->file('avatar')->storeAs(
+                        'avatar' . $user->id,
+                        $fileName,
+                        'public'
+                    );
+
+
+                    $user->update(['avatar' => "/" . "storage/" . $path]);
+                }
+            }
+        }
+
 
         return back();
     }

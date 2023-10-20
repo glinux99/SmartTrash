@@ -49,8 +49,8 @@ var KTAccountSettingsDeactivateAccount = (function () {
                                       .then((t) => {
                                           t.isConfirmed
                                               ? Swal.fire({
-                                                    text: "Votre compte a été désactivé.",
-                                                    icon: "success",
+                                                    text: "Cette action a ete supendu pour le moment",
+                                                    icon: "info",
                                                     confirmButtonText: "Ok",
                                                     buttonsStyling: !1,
                                                     customClass: {
@@ -60,7 +60,7 @@ var KTAccountSettingsDeactivateAccount = (function () {
                                                 })
                                               : t.isDenied &&
                                                 Swal.fire({
-                                                    text: "Account not deactivated.",
+                                                    text: "Cette action a ete supendu pour le moment",
                                                     icon: "info",
                                                     confirmButtonText: "Ok",
                                                     buttonsStyling: !1,

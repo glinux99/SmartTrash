@@ -521,7 +521,9 @@ Mon compte
                     <!--begin::Edit-->
                     <div id="fab_signin_email_edit" class="flex-row-fluid d-none">
                         <!--begin::Form-->
-                        <form id="fab_signin_change_email" class="form" novalidate="novalidate">
+                        <form id="fab_signin_change_email" class="form" novalidate="novalidate" method="POST"
+                            action="/user/{{Auth::user()->id}}">
+                            @csrf
                             <div class="row mb-6">
                                 <div class="col-lg-6 mb-4 mb-lg-0">
                                     <div class="fv-row mb-0">
@@ -529,7 +531,7 @@ Mon compte
                                             nouvelle
                                             adresse</label>
                                         <input type="email" class="form-control form-control-lg form-control-solid"
-                                            id="emailaddress" placeholder="Adresse Email" name="emailaddress"
+                                            id="emailaddress" placeholder="Adresse Email" name="email"
                                             value="{{ Auth::user()->email}}" />
                                     </div>
                                 </div>
@@ -544,6 +546,7 @@ Mon compte
                                 </div>
                             </div>
                             <div class="d-flex">
+                                <button type="submit" id="submitEmailChange">d</button>
                                 <button id="fab_signin_submit" type="button" class="btn btn-primary  me-2 px-6">Mis a
                                     jour de l'Email</button>
                                 <button id="fab_signin_cancel" type="button"
@@ -578,14 +581,16 @@ Mon compte
                     <!--begin::Edit-->
                     <div id="fab_signin_password_edit" class="flex-row-fluid d-none">
                         <!--begin::Form-->
-                        <form id="fab_signin_change_password" class="form" novalidate="novalidate">
+                        <form id="fab_signin_change_password" class="form" novalidate="novalidate" method="POST"
+                            action="/user/{{Auth::user()->id}}">
+                            @csrf
                             <div class="row mb-1">
                                 <div class="col-lg-4">
                                     <div class="fv-row mb-0">
                                         <label for="currentpassword" class="form-label fs-6 fw-bold mb-3">Mot de passe
                                             courrant</label>
                                         <input type="password" class="form-control form-control-lg form-control-solid "
-                                            name="currentpassword" id="currentpassword" />
+                                            name="password" id="currentpassword" />
                                     </div>
                                 </div>
 
@@ -603,7 +608,7 @@ Mon compte
                                         <label for="confirmpassword" class="form-label fs-6 fw-bold mb-3">Confirmez le
                                             nouvel mot de passe</label>
                                         <input type="password" class="form-control form-control-lg form-control-solid "
-                                            name="confirmpassword" id="confirmpassword" />
+                                            name="" id="confirmpassword" />
                                     </div>
                                 </div>
                             </div>
@@ -612,6 +617,7 @@ Mon compte
                                 des symboles</div>
 
                             <div class="d-flex">
+                                <button type="submit" hidden id="passwordSubmit"></button>
                                 <button id="fab_password_submit" type="button" class="btn btn-primary me-2 px-6">Mis a
                                     jour du mot de passe</button>
                                 <button id="fab_password_cancel" type="button"

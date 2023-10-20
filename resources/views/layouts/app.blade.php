@@ -152,8 +152,9 @@ Like: www.facebook.com/danielkikimba
                         <div class="d-flex flex-shrink-0">
 
                             <div class="d-flex ms-3">
-                                <a href="#" class=" btn bg-body btn-color-gray-600 btn-active-info" tooltip="New Member"
-                                    data-bs-toggle="modal" data-bs-target="#fab_modal_create_account">
+                                <a href="#" class=" btn bg-body btn-color-gray-600 btn-active-info"
+                                    tooltip="Nouveau client" data-bs-toggle="modal"
+                                    data-bs-target="#fab_modal_create_account">
                                     Nouveau client
                                 </a>
                             </div>

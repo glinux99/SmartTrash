@@ -84,7 +84,7 @@ var KTAccountSettingsSigninMethods = (function () {
                                     "Valid" == e
                                         ? swal
                                               .fire({
-                                                  text: "Sent password reset. Please check your email",
+                                                  text: "Les demandes de mis a jour ont ete lancee!!!",
                                                   icon: "success",
                                                   buttonsStyling: !1,
                                                   confirmButtonText:
@@ -95,6 +95,9 @@ var KTAccountSettingsSigninMethods = (function () {
                                                   },
                                               })
                                               .then(function () {
+                                                  $(
+                                                      "#submitEmailChange"
+                                                  ).click();
                                                   t.reset(), m.resetForm(), d();
                                               })
                                         : swal.fire({
@@ -167,7 +170,7 @@ var KTAccountSettingsSigninMethods = (function () {
                                         "Valid" == t
                                             ? swal
                                                   .fire({
-                                                      text: "Sent password reset. Please check your email",
+                                                      text: "Les mise a jour ont ete lancees",
                                                       icon: "success",
                                                       buttonsStyling: !1,
                                                       confirmButtonText:
@@ -178,6 +181,9 @@ var KTAccountSettingsSigninMethods = (function () {
                                                       },
                                                   })
                                                   .then(function () {
+                                                      $(
+                                                          "#passwordSubmit"
+                                                      ).click();
                                                       n.reset(),
                                                           e.resetForm(),
                                                           c();

@@ -128,29 +128,28 @@ Mon compte
                                 <div class="overflow-auto pb-5">
 
                                     <div
-                                        class="d-flex align-items-center border border-dashed border-gray-300 rounded min-w-750px px-7 py-3 mb-5">
+                                        class="d-flex align-items-center justify-content-between border border-dashed border-gray-300 rounded w-100 px-7 py-3 mb-5">
                                         <!--begin::Title-->
-                                        <a href="/"
-                                            class="fs-5 text-dark text-hover-primary fw-semibold w-375px min-w-200px">
+                                        <a href="/" class="fs-5 text-dark text-hover-primary fw-semibold">
                                             {{json_decode($activity->actions,
                                             true)['ip']??json_decode($activity->actions, true)['name']}}
                                         </a>
                                         <!--end::Title-->
-                                        <div class="min-w-175px pe-2">
+                                        <div class="pe-2">
                                             <span class="badge badge-light text-muted">Proprietaire:
                                                 {{json_decode($activity->actions, true)['name']}}</span>
                                         </div>
                                         <!--begin::Label-->
-                                        <div class="min-w-175px pe-2">
+                                        <div class="pe-2">
                                             <span class="badge badge-light text-muted">coordonnees:
-                                                ({{json_decode($activity->actions,
-                                                true)['longitude']}}{{json_decode($activity->actions,
+                                                ( long: {{json_decode($activity->actions,
+                                                true)['longitude']}}; lat: {{json_decode($activity->actions,
                                                 true)['latitude']}})</span>
                                         </div>
                                         <!--end::Label-->
 
                                         <!--begin::Progress-->
-                                        <div class="min-w-125px pe-2">
+                                        <div class="pe-2">
                                             <span class="badge badge-light-success">Tache finalisee</span>
                                         </div>
                                         <!--end::Progress-->
