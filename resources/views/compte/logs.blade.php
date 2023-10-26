@@ -48,7 +48,7 @@ Mon compte
 
                     <!--begin::Tbody-->
                     <tbody class="fw-6 fw-semibold text-gray-600">
-                        @for($i = 0; $i < 4; $i++) <tr>
+                        @for($i = 0; $i < 1; $i++) <tr>
                             <td>
                                 <a href="#" class="text-hover-primary text-gray-600">RDC, Goma</a>
                             </td>

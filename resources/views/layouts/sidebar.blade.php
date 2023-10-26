@@ -27,11 +27,11 @@
                 <ul class="nav flex-column">
                     <!--begin::Nav item-->
                     <li class="nav-item mb-2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right"
-                        data-bs-dismiss="click" title="Vehicule">
+                        data-bs-dismiss="click" title="poubelle">
                         <!--begin::Nav link-->
                         <a class="nav-link btn btn-custom btn-icon " data-bs-toggle="tab"
                             href="#fab_aside_nav_tab_projects">
-                            <i class="ki-duotone ki-car fs-2x"><span class="path1"></span><span
+                            <i class="ki-duotone ki-trash fs-2x"><span class="path1"></span><span
                                     class="path2"></span></i>
                         </a>
                         <!--end::Nav link-->
@@ -156,7 +156,7 @@
                 <!--begin::Menu wrapper-->
                 <div class="cursor-pointer symbol symbol-40px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
                     data-kt-menu-overflow="true" data-kt-menu-placement="top-start">
-                    <img src="{{ asset('assets/img/linux.jpg')}}" alt="image" />
+                    <img src="{{ asset(Auth::user()->avatar)}}" alt="image" />
                 </div>
 
 
@@ -168,7 +168,7 @@
                         <div class="menu-content d-flex align-items-center px-3">
                             <!--begin::Avatar-->
                             <div class="symbol symbol-50px me-5">
-                                <img alt="Logo" src="{{ asset('assets/img/linux.jpg')}}" />
+                                <img alt="Logo" src="{{ asset(Auth::user()->avatar)}}" />
                             </div>
                             <!--end::Avatar-->
 
@@ -272,9 +272,14 @@
 
                     <!--begin::Menu item-->
                     <div class="menu-item px-5">
-                        <a href="/" class="menu-link px-5">
-                            Deconnection
+
+                        <a class="menu-link px-5" href="{{ route('logout') }}" onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();" id="logOut">
+                            <i class="las la-sign-out-alt"></i> @lang("Se deconnecter")
                         </a>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                            @csrf
+                        </form>
                     </div>
                     <!--end::Menu item-->
                 </div>
@@ -397,7 +402,7 @@
                                             <div class="d-flex flex-column flex-grow-1">
                                                 <!--begin::Title-->
                                                 <h5 class="custom-list-title fw-semibold text-gray-800 mb-1">
-                                                    Bride Car 4x4</h5>
+                                                    Poubelle jaune</h5>
                                                 <!--end::Title-->
 
                                                 <!--begin::Link-->
@@ -600,7 +605,7 @@
                                 <!--begin::Container-->
                                 <div class="text-center pt-10 mb-20">
                                     <!--begin::Title-->
-                                    <h2 class="fs-2 fw-bold mb-7">Securite de la route</h2>
+                                    <h2 class="fs-2 fw-bold mb-7">Donnee liee aux poubelles</h2>
                                     <!--end::Title-->
 
                                     <!--begin::Description-->
@@ -827,7 +832,7 @@
                                             <!--begin::Title-->
                                             <div class="flex-grow-1 me-2">
                                                 <a href="../../widgets/lists.html"
-                                                    class="fw-bold text-gray-800 text-hover-primary fs-8">Scan Vehicule
+                                                    class="fw-bold text-gray-800 text-hover-primary fs-8">Scan poubelle
                                                     1x8TwC CD</a>
 
                                                 <span class="text-muted fw-semibold d-block fs-9">Zone Charlie par

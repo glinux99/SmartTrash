@@ -9,7 +9,7 @@ Tableau de bord
         Acceuil </a>
 </li>
 <li class="breadcrumb-item text-dark">
-    Vehicule </li>
+    poubelle </li>
 @endsection
 @section('content')
 

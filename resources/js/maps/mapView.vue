@@ -23,9 +23,9 @@ export default {
     LMarker,
   },
   setup() {
-    const zoom = ref(12);
-    const center = ref([47.41322, -1.219482]);
-    const markerPosition = ref([47.41322, -1.219482]);
+    const zoom = ref(17);
+    const center = ref([-1.67409, 29.22845]);
+    const markerPosition = ref([-1.67409, 29.22845]);
 
     onMounted(async () => {
       await callBackMounted();

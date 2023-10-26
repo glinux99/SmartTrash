@@ -34,6 +34,7 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
+        // UserController to create user agent
         // Validate the request
         $this->validate($request, [
             'name' => 'required|string|max:255',

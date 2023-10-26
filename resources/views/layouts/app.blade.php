@@ -290,7 +290,7 @@ Like: www.facebook.com/danielkikimba
                                         <div class="col-md-6">
                                             <label class="required form-label">Nom</label>
                                             <input type="text" class="form-control form-control-lg form-control-solid"
-                                                name="name" placeholder="model du proprietaire" value="">
+                                                name="name" placeholder="nom du proprietaire" value="">
                                         </div>
                                         <div class="col-md-6">
                                             <label class=" form-label">Prenom</label>

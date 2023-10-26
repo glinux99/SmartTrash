@@ -194,7 +194,7 @@ Mon compte
                                 <div class="pe-3 mb-5">
                                     <!--begin::Title-->
                                     <div class="fs-5 fw-semibold mb-2">
-                                        Enregistement de vehicules ...
+                                        Enregistement de poubelles ...
                                     </div>
                                     <!--end::Title-->
 
@@ -236,7 +236,7 @@ Mon compte
                                 <div class="pe-3 mb-5">
                                     <!--begin::Title-->
                                     <div class="fs-5 fw-semibold mb-2">
-                                        Enregistement de vehicules ...
+                                        Enregistement de poubelles ...
                                     </div>
                                     <!--end::Title-->
 
@@ -291,7 +291,7 @@ Mon compte
                                 <div class="pe-3 mb-5">
                                     <!--begin::Title-->
                                     <div class="fs-5 fw-semibold mb-2">
-                                        Enregistement de vehicules ...
+                                        Enregistement de poubelles ...
                                     </div>
                                     <!--end::Title-->
 
@@ -343,7 +343,7 @@ Mon compte
                                 <div class="pe-3 mb-5">
                                     <!--begin::Title-->
                                     <div class="fs-5 fw-semibold mb-2">
-                                        Enregistement de vehicules ...
+                                        Enregistement de poubelles ...
                                     </div>
                                     <!--end::Title-->
 

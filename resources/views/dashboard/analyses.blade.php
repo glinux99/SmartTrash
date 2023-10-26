@@ -82,12 +82,10 @@ Tableau de bord
 
                         <!--begin::Users group-->
                         <div class="symbol-group symbol-hover mb-9">
-                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Joackim">
-                                <span class="symbol-label bg-warning text-inverse-warning fw-bold">D</span>
-                            </div>
+
                             @foreach ($users as $index=>$user)
                             @if ($index <3) <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
-                                title="linux99">
+                                title="{{ $user->name}}">
                                 <img alt="Pic" src="{{ asset($user->avatar)}}" />
                         </div>
                         @endif

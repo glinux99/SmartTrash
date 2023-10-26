@@ -72,7 +72,7 @@ Like: www.facebook.com/danielkikimba
     {{-- Content of page form another pages --}}
 
     <!--begin::Authentication - Sign-in -->
-    <div
+    <div style="background: url({{ asset('assets/img/ixmages.jpg')}}) ; background-position: center; background-repeat: no-repeat;background-size: contain;"
         class="d-flex flex-column flex-column-fluid bgi-position-y-bottom position-x-center bgi-no-repeat bgi-size-contain bgi-attachment-fixed auth-page-bg">
         <!--begin::Content-->
         <div class="d-flex flex-center flex-column flex-column-fluid ">

@@ -163,7 +163,8 @@ Tableau de bord
                                     <div class="badge badge-light fw-bold">{{ $trash->ip}}</div>
                                 </td>
                                 <td>
-                                    <div class="badge badge-light-success fw-bold">{{ $trash->name}}</div>
+                                    <div class="badge badge-light-success fw-bold">{{ $trash->name}} {{ $trash->l_name}}
+                                    </div>
                                 </td>
                                 <td data-order="2023-08-19T20:43:00+02:00" class="text-center">
                                     {{ $trash->status}} </td>
@@ -300,7 +301,7 @@ Tableau de bord
                                     <div class="col-md-6">
                                         <label class="required form-label">Nom</label>
                                         <input type="text" class="form-control form-control-lg form-control-solid"
-                                            name="name" placeholder="model du proprietaire" value="">
+                                            name="name" placeholder="nom du proprietaire" value="">
                                     </div>
                                     <div class="col-md-6">
                                         <label class=" form-label">Prenom</label>

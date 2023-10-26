@@ -546,7 +546,7 @@ Mon compte
                                 </div>
                             </div>
                             <div class="d-flex">
-                                <button type="submit" id="submitEmailChange">d</button>
+                                <button type="submit" id="submitEmailChange" hidden></button>
                                 <button id="fab_signin_submit" type="button" class="btn btn-primary  me-2 px-6">Mis a
                                     jour de l'Email</button>
                                 <button id="fab_signin_cancel" type="button"

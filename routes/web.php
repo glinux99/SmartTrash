@@ -24,7 +24,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::group(['middleware' => 'auth:sanctum'], function () {
     Route::get('/', function () {
-        return view('welcome');
+        return redirect()->route('analyses.index');
     });
     Route::post('/trash', function () {
         return view('welcome');
@@ -34,8 +34,8 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
     })->name('goma.map');
 
 
-    Route::get('/vehicules', function () {
-        return view('dashboard.vehicules');
+    Route::get('/poubelles', function () {
+        return view('dashboard.poubelles');
     });
     Route::get('/agents', function () {
         return view('dashboard.agents');
@@ -87,4 +87,4 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [AnalyseController::class, 'index'])->name('home');

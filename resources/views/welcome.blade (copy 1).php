@@ -156,7 +156,7 @@ License: For each use you must have a valid license purchased only from above li
                             <!--begin::Invite user-->
                             <div class="d-flex ms-3">
                                 <a href="#" class=" btn bg-body btn-color-gray-600 btn-active-info" tooltip="New Member" data-bs-toggle="modal" data-bs-target="#fab_modal_create_account">
-                                    Nouveau vehicule
+                                    Nouveau poubelle
                                 </a>
                             </div>
                             <!--end::Invite user-->
@@ -179,7 +179,7 @@ License: For each use you must have a valid license purchased only from above li
                                     <div class="card-body p-9">
                                         <!--begin::Heading-->
                                         <div class="fs-2hx fw-bold">237</div>
-                                        <div class="fs-4 fw-semibold text-gray-400 mb-7">Vehicules enregistrees</div>
+                                        <div class="fs-4 fw-semibold text-gray-400 mb-7">poubelles enregistrees</div>
                                         <!--end::Heading-->
 
                                         <!--begin::Wrapper-->
