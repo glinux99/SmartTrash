@@ -71,29 +71,30 @@ Like: www.facebook.com/danielkikimba
 
     {{-- Content of page form another pages --}}
 
-    <!--begin::Authentication - Sign-in -->
+
     <div style="background: url({{ asset('assets/img/ixmages.jpg')}}) ; background-position: center; background-repeat: no-repeat;background-size: contain;"
         class="d-flex flex-column flex-column-fluid bgi-position-y-bottom position-x-center bgi-no-repeat bgi-size-contain bgi-attachment-fixed auth-page-bg">
-        <!--begin::Content-->
+
         <div class="d-flex flex-center flex-column flex-column-fluid ">
 
 
-            <!--begin::Wrapper-->
-            <div class="w-lg-500px bg-body rounded shadow-sm px-10 p-lg-15  pt-4 mx-auto">
-                <!--begin::Logo-->
-                <a href="/" class="d-flex justify-content-center">
+
+            <div class="w-lg-500px bg-body rounded shadow-sm px-10 py-lg-5   mx-auto">
+
+                <a href="/" class="d-flex justify-content-center pb-lg-10  align-items-start">
                     <img alt="Logo" src="{{ asset('assets/img/logo.png')}}" class="h-60px" />
                 </a>
-                <!--end::Logo-->
+
                 @yield('content')
+
             </div>
-            <!--end::Wrapper-->
+
         </div>
-        <!--end::Content-->
+
     </div>
-    <!--end::Authentication - Sign-in-->
+
     </div>
-    <!--end::Main-->
+
 
     <div id="fab_scrolltop" class="scrolltop" data-kt-scrolltop="true">
         <i class="ki-duotone ki-arrow-up"><span class="path1"></span><span class="path2"></span></i>

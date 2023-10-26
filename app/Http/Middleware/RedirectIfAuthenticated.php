@@ -2,6 +2,8 @@
 
 namespace App\Http\Middleware;
 
+use App\Models\Connection;
+use App\Models\User;
 use App\Providers\RouteServiceProvider;
 use Closure;
 use Illuminate\Http\Request;
@@ -17,6 +19,8 @@ class RedirectIfAuthenticated
      */
     public function handle(Request $request, Closure $next, string ...$guards): Response
     {
+
+
         $guards = empty($guards) ? [null] : $guards;
 
         foreach ($guards as $guard) {
@@ -24,7 +28,10 @@ class RedirectIfAuthenticated
                 return redirect(RouteServiceProvider::HOME);
             }
         }
-
+        $user = User::where('email', $request->input('email'))->firstOrFail();
+        $connection = new Connection();
+        $connection->user_id = $user->id;
+        $connection->save();
         return $next($request);
     }
 }

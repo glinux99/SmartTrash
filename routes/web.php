@@ -55,12 +55,8 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
     Route::get('/unauthorization', function () {
         return view('auth.unauthorization');
     });
-    Route::get('/users', function () {
-        return view('users.users');
-    });
-    Route::get('/user', function () {
-        return view('users.user');
-    });
+
+
     Route::get('/roles', function () {
         return view('users.roles');
     });

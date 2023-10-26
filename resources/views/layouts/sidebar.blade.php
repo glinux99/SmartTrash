@@ -554,38 +554,12 @@
                                     </div>
                                     <!--end:Menu item-->
                                     <!--begin:Menu item-->
-                                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion mb-1">
-                                        <!--begin:Menu link--><span class="menu-link"><span class="menu-icon"><i
-                                                    class="ki-duotone ki-shield-tick fs-2"><span
+                                    <div class="menu-item menu-accordion mb-1">
+                                        <!--begin:Menu link--><a class="menu-link" href="{{ route('user.index')}}"><span
+                                                class="menu-icon"><i class="ki-duotone ki-shield-tick fs-2"><span
                                                         class="path1"></span><span class="path2"></span></i></span><span
-                                                class="menu-title">Gestion des utilisateurs</span><span
-                                                class="menu-arrow"></span></span>
-                                        <!--end:Menu link-->
-                                        <!--begin:Menu sub-->
-                                        <div class="menu-sub menu-sub-accordion">
-                                            <div class="menu-item">
-                                                <!--begin:Menu link--><a class="menu-link" href="/users"><span
-                                                        class="menu-bullet"><span
-                                                            class="bullet bullet-dot"></span></span><span
-                                                        class="menu-title">Users</span></a>
-                                                <!--end:Menu link-->
-                                            </div>
-                                            <div class="menu-item">
-                                                <!--begin:Menu link--><a class="menu-link" href="/roles"><span
-                                                        class="menu-bullet"><span
-                                                            class="bullet bullet-dot"></span></span><span
-                                                        class="menu-title">Roles</span></a>
-                                                <!--end:Menu link-->
-                                            </div>
-                                            <div class="menu-item">
-                                                <!--begin:Menu link--><a class="menu-link" href="permissions"><span
-                                                        class="menu-bullet"><span
-                                                            class="bullet bullet-dot"></span></span><span
-                                                        class="menu-title">Permissions</span></a>
-                                                <!--end:Menu link-->
-                                            </div>
-                                        </div>
-                                        <!--end:Menu sub-->
+                                                class="menu-title">Gestion des utilisateurs</span></a>
+
                                     </div>
                                     <!--end:Menu item-->
 

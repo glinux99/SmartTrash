@@ -374,9 +374,9 @@ Gestion d'utilisateurs
                             <tr class="text-start text-muted fw-bold fs-7 text-uppercase gs-0">
                                 <th class="w-10px pe-2 sorting_disabled" rowspan="1" colspan="1" style="width: 29.9px;"
                                     aria-label="
-                
-                    
-                
+
+
+
             ">
                                     <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
                                         <input class="form-check-input" type="checkbox" data-kt-check="true"
@@ -401,6 +401,8 @@ Gestion d'utilisateurs
                             </tr>
                         </thead>
                         <tbody class="text-gray-600 fw-semibold">
+                            @foreach ($users as $index=>$user)
+
                             <tr class="odd">
                                 <td>
                                     <div class="form-check form-check-sm form-check-custom form-check-solid">
@@ -410,33 +412,41 @@ Gestion d'utilisateurs
                                 <td class="d-flex align-items-center">
 
                                     <div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-                                        <a href="view.html">
+                                        <a href="/">
+                                            @if($user->avatar)
                                             <div class="symbol-label">
-                                                <img src="../../../assets/media/avatars/300-6.jpg" alt="Emma Smith"
+
+                                                <img src="{{ asset($user->avatar)}}" alt="{{$user->name}}"
                                                     class="w-100">
                                             </div>
+                                            @else
+                                            <div class="symbol-label fs-3 bg-light-danger text-danger">
+                                                {{$user->name[0]}} </div>
+                                            @endif
                                         </a>
                                     </div>
 
 
                                     <div class="d-flex flex-column">
-                                        <a href="view.html" class="text-gray-800 text-hover-primary mb-1">Emma Smith</a>
-                                        <span>smith@kpmg.com</span>
+                                        <a href="/" class="text-gray-800 text-hover-primary mb-1">{{ $user->name}} {{
+                                            $user->l_name}}</a>
+                                        <span>{{ $user->email}}</span>
                                     </div>
 
                                 </td>
                                 <td>
-                                    Administrator </td>
+                                    {{ $user->type}} </td>
                                 <td data-order="2023-10-07T02:43:51+02:00">
                                     <div class="badge badge-light fw-bold">Yesterday</div>
                                 </td>
                                 <td>
                                 </td>
-                                <td data-order="2023-04-15T22:10:00+02:00">
-                                    15 Apr 2023, 10:10 pm </td>
+                                <td data-order="{{$user->created_at}}">
+                                    {{
+                                    Carbon\Carbon::parse($user->created_at)->locale('fr')->format('d M Y')
+                                    }} </td>
                                 <td class="text-end">
-                                    <button class="btn btn-icon btn-active-light-primary w-30px h-30px me-3"
-                                        @click="editModal(product)">
+                                    <button class="btn btn-icon btn-active-light-primary w-30px h-30px me-3">
                                         <i class="ki-duotone ki-pencil fs-3"><span class="path1"></span><span
                                                 class="path2"></span><span class="path3"></span><span
                                                 class="path4"></span><span class="path5"></span></i>
@@ -449,54 +459,7 @@ Gestion d'utilisateurs
                                     </button>
                                 </td>
                             </tr>
-                            <tr class="even">
-                                <td>
-                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input" type="checkbox" value="1">
-                                    </div>
-                                </td>
-                                <td class="d-flex align-items-center">
-
-                                    <div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
-                                        <a href="view.html">
-                                            <div class="symbol-label fs-3 bg-light-danger text-danger">
-                                                M </div>
-                                        </a>
-                                    </div>
-
-
-                                    <div class="d-flex flex-column">
-                                        <a href="view.html" class="text-gray-800 text-hover-primary mb-1">Melody
-                                            Macy</a>
-                                        <span>melody@altbox.com</span>
-                                    </div>
-
-                                </td>
-                                <td>
-                                    Analyst </td>
-                                <td data-order="2023-10-08T02:23:51+02:00">
-                                    <div class="badge badge-light fw-bold">20 mins ago</div>
-                                </td>
-                                <td>
-
-                                </td>
-                                <td data-order="2023-08-19T20:43:00+02:00">
-                                    19 Aug 2023, 8:43 pm </td>
-                                <td class="text-end">
-                                    <button class="btn btn-icon btn-active-light-primary w-30px h-30px me-3"
-                                        @click="editModal(product)">
-                                        <i class="ki-duotone ki-pencil fs-3"><span class="path1"></span><span
-                                                class="path2"></span><span class="path3"></span><span
-                                                class="path4"></span><span class="path5"></span></i>
-                                    </button>
-                                    <button class="btn btn-icon btn-active-light-primary w-30px h-30px"
-                                        data-kt-permissions-table-filter="delete_row">
-                                        <i class="ki-duotone ki-trash fs-3"><span class="path1"></span><span
-                                                class="path2"></span><span class="path3"></span><span
-                                                class="path4"></span><span class="path5"></span></i>
-                                    </button>
-                                </td>
-                            </tr>
+                            @endforeach
                         </tbody>
                     </table>
                 </div>
