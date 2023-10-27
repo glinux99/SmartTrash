@@ -42,7 +42,7 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
     });
     Route::get('/settings', function () {
         return view('compte.settings');
-    });
+    })->name('settings');
     Route::get('/oauth', function () {
         return view('auth.askConnexion');
     });
@@ -76,7 +76,8 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
         'trashes' => TrashController::class,
         'user' => UserController::class,
     ], ['except' => ['update']]);
-
+    Route::get('users/{id}', [UserController::class, 'edit'])->name('users.edit');
+    Route::get('users/destroy/{id}', [UserController::class, 'destroy'])->name('users.destroy');
     Route::post('/user/{id}', [UserController::class, 'update']);
     // Route::put('/users/{user}', 'UsersController@update');
 });

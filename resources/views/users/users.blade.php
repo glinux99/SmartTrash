@@ -87,9 +87,10 @@ Gestion d'utilisateurs
 
                             <div class="modal-body px-5 my-7">
 
-                                <form id="fab_modal_add_user_form"
-                                    class="form fv-plugins-bootstrap5 fv-plugins-framework" action="#">
-
+                                <form id="fab_modal_add_user_form" method="POST"
+                                    class="form fv-plugins-bootstrap5 fv-plugins-framework"
+                                    action="{{ route('user.store')}}">
+                                    @csrf
                                     <div class="d-flex flex-column scroll-y px-5 px-lg-10"
                                         id="fab_modal_add_user_scroll" data-kt-scroll="true"
                                         data-kt-scroll-activate="true" data-kt-scroll-max-height="auto"
@@ -99,7 +100,7 @@ Gestion d'utilisateurs
 
                                         <div class="fv-row mb-7">
 
-                                            <label class="d-block fw-semibold fs-6 mb-5">Avatar</label>
+                                            <label class="d-block fw-semibold fs-6 mb-5">Photo</label>
 
 
 
@@ -119,7 +120,7 @@ Gestion d'utilisateurs
                                                 data-kt-image-input="true">
 
                                                 <div class="image-input-wrapper w-125px h-125px"
-                                                    style="background-image: url(../../../assets/media/avatars/300-6.jpg);">
+                                                    style="background-image: url({{asset(Auth::user()->avatar)}});">
                                                 </div>
 
 
@@ -169,13 +170,27 @@ Gestion d'utilisateurs
 
                                         <div class="fv-row mb-7 fv-plugins-icon-container">
 
-                                            <label class="required fw-semibold fs-6 mb-2">Full Name</label>
+                                            <label class="required fw-semibold fs-6 mb-2">Nom</label>
 
 
 
-                                            <input type="text" name="user_name"
-                                                class="form-control form-control-solid mb-3 mb-lg-0"
-                                                placeholder="Full name" value="Emma Smith">
+                                            <input type="text" name="name"
+                                                class="form-control form-control-solid mb-3 mb-lg-0" placeholder="name"
+                                                value="">
+
+                                            <div
+                                                class="fv-plugins-message-container fv-plugins-message-container--enabled invalid-feedback">
+                                            </div>
+                                        </div>
+                                        <div class="fv-row mb-7 fv-plugins-icon-container">
+
+                                            <label class="required fw-semibold fs-6 mb-2">Prenom</label>
+
+
+
+                                            <input type="text" name="l_name"
+                                                class="form-control form-control-solid mb-3 mb-lg-0" placeholder="name"
+                                                value="">
 
                                             <div
                                                 class="fv-plugins-message-container fv-plugins-message-container--enabled invalid-feedback">
@@ -190,9 +205,23 @@ Gestion d'utilisateurs
 
 
 
-                                            <input type="email" name="user_email"
+                                            <input type="email" name="email"
                                                 class="form-control form-control-solid mb-3 mb-lg-0"
-                                                placeholder="example@domain.com" value="smith@kpmg.com">
+                                                placeholder="example@domain.com" value="">
+
+                                            <div
+                                                class="fv-plugins-message-container fv-plugins-message-container--enabled invalid-feedback">
+                                            </div>
+                                        </div>
+                                        <div class="fv-row mb-7 fv-plugins-icon-container">
+
+                                            <label class="required fw-semibold fs-6 mb-2">Mot de passe</label>
+
+
+
+                                            <input type="password" name="password"
+                                                class="form-control form-control-solid mb-3 mb-lg-0"
+                                                placeholder="example@domain.com" value="">
 
                                             <div
                                                 class="fv-plugins-message-container fv-plugins-message-container--enabled invalid-feedback">
@@ -200,10 +229,9 @@ Gestion d'utilisateurs
                                         </div>
 
 
-
                                         <div class="mb-5">
 
-                                            <label class="required fw-semibold fs-6 mb-5">Role</label>
+                                            <label class="required fw-semibold fs-6 mb-5">Categorie</label>
 
 
 
@@ -212,16 +240,19 @@ Gestion d'utilisateurs
 
                                                 <div class="form-check form-check-custom form-check-solid">
 
-                                                    <input class="form-check-input me-3" name="user_role" type="radio"
-                                                        value="0" id="fab_modal_update_role_option_0" checked="checked">
+                                                    <input class="form-check-input me-3" name="category" type="radio"
+                                                        value="Agent de bureau" checked="checked">
 
 
 
                                                     <label class="form-check-label"
                                                         for="fab_modal_update_role_option_0">
-                                                        <div class="fw-bold text-gray-800">Administrator</div>
-                                                        <div class="text-gray-600">Best for business owners and company
-                                                            administrators</div>
+                                                        <div class="fw-bold text-gray-800">Agent de bureau</div>
+                                                        <div class="text-gray-600">Un agent de bureau est un employé qui
+                                                            travaille dans un bureau et effectue des tâches
+                                                            administratives. Il peut s'occuper de la saisie de données,
+                                                            de la gestion de dossiers, du traitement du courrier, etc.
+                                                        </div>
                                                     </label>
 
                                                 </div>
@@ -235,16 +266,18 @@ Gestion d'utilisateurs
 
                                                 <div class="form-check form-check-custom form-check-solid">
 
-                                                    <input class="form-check-input me-3" name="user_role" type="radio"
-                                                        value="1" id="fab_modal_update_role_option_1">
+                                                    <input class="form-check-input me-3" name="category" type="radio"
+                                                        value="Agent de terrain" id="fab_modal_update_role_option_1">
 
 
 
                                                     <label class="form-check-label"
                                                         for="fab_modal_update_role_option_1">
-                                                        <div class="fw-bold text-gray-800">Developer</div>
-                                                        <div class="text-gray-600">Best for developers or people
-                                                            primarily using the API</div>
+                                                        <div class="fw-bold text-gray-800">Agent de terrain</div>
+                                                        <div class="text-gray-600">Un agent de terrain est un employé
+                                                            qui travaille en dehors du bureau, généralement sur le
+                                                            terrain ou chez les clients. Il peut s'occuper de la vente,
+                                                            de la réparation, de l'installation, etc</div>
                                                     </label>
 
                                                 </div>
@@ -437,7 +470,19 @@ Gestion d'utilisateurs
                                 <td>
                                     {{ $user->type}} </td>
                                 <td data-order="2023-10-07T02:43:51+02:00">
-                                    <div class="badge badge-light fw-bold">Yesterday</div>
+                                    @if ($user->id != Auth::id())
+                                    <div class="badge badge-light fw-bold">
+                                        {{ $user->connections->count()>0 ?
+                                        ($user->connections->last()->created_at)->diffForHumans() : "Aucune
+                                        connection"}}
+                                    </div>
+                                    @else
+                                    <div class="badge badge-light fw-bold position-relative">
+                                        <span
+                                            class="z-index-3 bullet bullet-dot bg-success h-6px w-6px position-absolute translate-start top-0 start-100 animation-blink"></span>
+                                        Connecté
+                                    </div>
+                                    @endif
                                 </td>
                                 <td>
                                 </td>
@@ -446,17 +491,27 @@ Gestion d'utilisateurs
                                     Carbon\Carbon::parse($user->created_at)->locale('fr')->format('d M Y')
                                     }} </td>
                                 <td class="text-end">
-                                    <button class="btn btn-icon btn-active-light-primary w-30px h-30px me-3">
+                                    <a href="{{ route('users.edit', $user->id)}}"
+                                        class="btn btn-icon btn-active-light-primary w-30px h-30px me-3">
                                         <i class="ki-duotone ki-pencil fs-3"><span class="path1"></span><span
                                                 class="path2"></span><span class="path3"></span><span
                                                 class="path4"></span><span class="path5"></span></i>
-                                    </button>
-                                    <button class="btn btn-icon btn-active-light-primary w-30px h-30px"
-                                        data-kt-permissions-table-filter="delete_row">
+                                    </a>
+                                    @if ($user->id == Auth::id())
+                                    <a href="{{ route('settings')}}"
+                                        class="btn btn-icon btn-active-light-primary w-30px h-30px">
+                                        <i class="ki-duotone ki-setting-2 fs-3"><span class="path1"></span><span
+                                                class="path2"></span><span class="path3"></span><span
+                                                class="path4"></span><span class="path5"></span></i>
+                                    </a>
+                                    @else
+                                    <a href="{{ route('users.destroy', $user->id)}}"
+                                        class="btn btn-icon btn-active-light-primary w-30px h-30px">
                                         <i class="ki-duotone ki-trash fs-3"><span class="path1"></span><span
                                                 class="path2"></span><span class="path3"></span><span
                                                 class="path4"></span><span class="path5"></span></i>
-                                    </button>
+                                    </a>
+                                    @endif
                                 </td>
                             </tr>
                             @endforeach

@@ -28,10 +28,14 @@ class RedirectIfAuthenticated
                 return redirect(RouteServiceProvider::HOME);
             }
         }
-        $user = User::where('email', $request->input('email'))->firstOrFail();
-        $connection = new Connection();
-        $connection->user_id = $user->id;
-        $connection->save();
+        try {
+            $user = User::where('email', $request->input('email'))->firstOrFail();
+            $connection = new Connection();
+            $connection->user_id = $user->id;
+            $connection->save();
+        } catch (\Throwable $th) {
+            //throw $th;
+        }
         return $next($request);
     }
 }

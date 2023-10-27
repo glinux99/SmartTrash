@@ -15,9 +15,8 @@ class UserController extends Controller
     public function index()
     {
         // Get all users
-        $users = User::all();
+        $users = User::with('connections')->get();
 
-        // Return the users
         return view('users.users', ['users' => $users]);
     }
 
@@ -45,10 +44,13 @@ class UserController extends Controller
         if ($request->file('avatar')) {
             $avatarPath = $avatar->store('avatars');
             $request['avatar'] = $avatarPath;
+            User::create($request->all());
         }
 
         // Create a new user
-        User::create($request->all());
+        else {
+            User::create($request->except(['avatar']));
+        }
 
 
         return $this->index();
@@ -71,7 +73,8 @@ class UserController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $user = User::find($id);
+        return view('users.user', ['user' => $user]);
     }
 
     /**
@@ -132,10 +135,11 @@ class UserController extends Controller
      */
     public function destroy(string $id)
     {
+
         $user = User::find($id);
 
         // Delete the user
         $user->delete();
-        return $this->index();
+        return back();
     }
 }

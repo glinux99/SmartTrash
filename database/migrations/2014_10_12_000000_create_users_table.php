@@ -18,8 +18,8 @@ return new class extends Migration
             $table->string('phone')->nullable();
             $table->string('type')->default('aucun')->nullable();
             $table->string('email')->unique();
-            $table->string('category')->unique()->default('agent de controle');
-            $table->string('addess')->unique()->default('Keshero Goma, NK');
+            $table->string('category')->default('agent de controle');
+            $table->string('addess')->default('Keshero Goma, NK');
             $table->string('country')->nullable()->default('CDF');
             $table->string('avatar')->nullable()->default('assets/img/linux.jpg');
             $table->timestamp('email_verified_at')->nullable();
