@@ -284,78 +284,6 @@ Gestion d'utilisateurs
 
                                             </div>
 
-
-                                            <div class="separator separator-dashed my-5"></div>
-
-                                            <div class="d-flex fv-row">
-
-                                                <div class="form-check form-check-custom form-check-solid">
-
-                                                    <input class="form-check-input me-3" name="user_role" type="radio"
-                                                        value="2" id="fab_modal_update_role_option_2">
-
-
-
-                                                    <label class="form-check-label"
-                                                        for="fab_modal_update_role_option_2">
-                                                        <div class="fw-bold text-gray-800">Analyst</div>
-                                                        <div class="text-gray-600">Best for people who need full access
-                                                            to analytics data, but don't need to update business
-                                                            settings</div>
-                                                    </label>
-
-                                                </div>
-
-                                            </div>
-
-
-                                            <div class="separator separator-dashed my-5"></div>
-
-                                            <div class="d-flex fv-row">
-
-                                                <div class="form-check form-check-custom form-check-solid">
-
-                                                    <input class="form-check-input me-3" name="user_role" type="radio"
-                                                        value="3" id="fab_modal_update_role_option_3">
-
-
-
-                                                    <label class="form-check-label"
-                                                        for="fab_modal_update_role_option_3">
-                                                        <div class="fw-bold text-gray-800">Support</div>
-                                                        <div class="text-gray-600">Best for employees who regularly
-                                                            refund payments and respond to disputes</div>
-                                                    </label>
-
-                                                </div>
-
-                                            </div>
-
-
-                                            <div class="separator separator-dashed my-5"></div>
-
-                                            <div class="d-flex fv-row">
-
-                                                <div class="form-check form-check-custom form-check-solid">
-
-                                                    <input class="form-check-input me-3" name="user_role" type="radio"
-                                                        value="4" id="fab_modal_update_role_option_4">
-
-
-
-                                                    <label class="form-check-label"
-                                                        for="fab_modal_update_role_option_4">
-                                                        <div class="fw-bold text-gray-800">Trial</div>
-                                                        <div class="text-gray-600">Best for people who need to preview
-                                                            content data, but don't need to make any updates</div>
-                                                    </label>
-
-                                                </div>
-
-                                            </div>
-
-
-
                                         </div>
 
                                     </div>
@@ -365,16 +293,16 @@ Gestion d'utilisateurs
                                     <div class="text-center pt-10">
                                         <button type="reset" class="btn btn-light me-3"
                                             data-kt-users-modal-action="cancel">
-                                            Discard
+                                            Annuler
                                         </button>
 
                                         <button type="submit" class="btn btn-primary"
                                             data-kt-users-modal-action="submit">
                                             <span class="indicator-label">
-                                                Submit
+                                                Envoyer
                                             </span>
                                             <span class="indicator-progress">
-                                                Please wait... <span
+                                                Veuillez patienter... <span
                                                     class="spinner-border spinner-border-sm align-middle ms-2"></span>
                                             </span>
                                         </button>

@@ -70,7 +70,7 @@ class TrashController extends Controller
      */
     public function edit(Trash $trash)
     {
-        return view('trashes.edit', ['trash' => $trash]);
+        return view('dashboard.trash', ['trash' => $trash]);
     }
 
     /**
@@ -80,19 +80,19 @@ class TrashController extends Controller
      * @param  \App\Models\Trash  $trash
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Trash $trash)
+    public function update(Request $request, $trash)
     {
+        $trash = Trash::find($trash);
         $request['user_id'] = Auth::user()->id;
         $request['title'] = "Mis 0 jour d'une poubelle " . $trash->ip;
-        $trash = new Trash;
+
         $request['champs'] = count($trash->getFillable());
         $data = $request->all();
         $request['actions'] = json_encode($data);
         Activity::create(['title' => $request['title'], 'actions' => $request['actions'], 'user_id' => $request['user_id']]);
 
         $trash->update($request->all());
-
-        return back();
+        return redirect()->route('trashes.index');
     }
 
     /**
@@ -101,9 +101,9 @@ class TrashController extends Controller
      * @param  \App\Models\Trash  $trash
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Trash $trash)
+    public function destroy($trash)
     {
-        $trash->delete();
+        Trash::find($trash)->delete();
 
         return redirect()->route('trashes.index')->with('success', 'Trash deleted successfully!');
     }

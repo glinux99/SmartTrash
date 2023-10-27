@@ -77,6 +77,8 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
         'user' => UserController::class,
     ], ['except' => ['update']]);
     Route::get('users/{id}', [UserController::class, 'edit'])->name('users.edit');
+    Route::post('trashes/{id}', [TrashController::class, 'update'])->name('trash.update');
+    Route::get('trashes/delete/{id}', [TrashController::class, 'destroy'])->name('trash.destroy');
     Route::get('users/destroy/{id}', [UserController::class, 'destroy'])->name('users.destroy');
     Route::post('/user/{id}', [UserController::class, 'update']);
     // Route::put('/users/{user}', 'UsersController@update');
